@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — Transworld Logistics Design */
+  --color-bg-main: #ffffff;
+  /* White background */
+  --color-bg-card: #ffffff;
+  /* White for cards */
+  --color-bg-alt: #f4f6f9;
+  /* Very light blue-gray for alternating sections */
+  --color-primary: #0b1a30;
+  /* Dark Navy Blue — primary brand color */
+  --color-accent: #8a9a2a;
+  /* Olive Green for buttons and highlights */
+  --color-text: #333333;
+  /* Dark text */
+  --color-text-light: #666666;
+  /* Gray for secondary text */
+  --color-border: #e5e5e5;
+  /* Subtle light border */
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}

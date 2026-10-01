@@ -1,0 +1,3275 @@
+{
+  "common": {
+    "globalUI": {
+      "loading": "Loading...",
+      "notFound": {
+        "title": "Oops!",
+        "subtitle": "Page Not Found",
+        "description": "Looks like you have taken a wrong turn. Let us get you back on track.",
+        "homeButtonText": "Back to Home",
+        "homeButtonUrl": "/"
+      }
+    },
+    "breadcrumbs": {
+      "AboutBreadcrumb": {
+        "title": "About Us",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "About Us"
+          }
+        ]
+      },
+      "WhyChooseUsBreadcrumb": {
+        "title": "Why Choose Us",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Why Choose Us"
+          }
+        ]
+      },
+      "MissionVisionBreadcrumb": {
+        "title": "Mission & Vision",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Mission & Vision"
+          }
+        ]
+      },
+      "ServicesBreadcrumb": {
+        "title": "Our Programs",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Programs"
+          }
+        ]
+      },
+      "FAQBreadcrumb": {
+        "title": "FAQs",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "FAQs"
+          }
+        ]
+      },
+      "PrivacyBreadcrumb": {
+        "title": "PRIVACY POLICY",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Privacy Policy"
+          }
+        ]
+      },
+      "TermsBreadcrumb": {
+        "title": "TERMS & CONDITIONS",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Terms & Conditions"
+          }
+        ]
+      },
+      "RefundBreadcrumb": {
+        "title": "REFUND POLICY",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Refund Policy"
+          }
+        ]
+      },
+      "BlogBreadcrumb": {
+        "title": "Our Blog",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Blog"
+          }
+        ]
+      },
+      "ContactBreadcrumb": {
+        "title": "CONTACT US",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Contact Us"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "GalleryBreadcrumb": {
+        "title": "Our Gallery",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Gallery"
+          }
+        ]
+      },
+      "PricingBreadcrumb": {
+        "title": "PRICING",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Pricing"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "TestimonialsBreadcrumb": {
+        "title": "TESTIMONIALS",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Testimonials"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "TeamBreadcrumb": {
+        "title": "OUR TEAM",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Team"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "TeamDetailBreadcrumb": {
+        "title": "TEAM DETAILS",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Team",
+            "url": "/team"
+          },
+          {
+            "label": "Details"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "TrainingBreadcrumb": {
+        "title": "TRAINING PROGRAMS",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Training Programs"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "TrainingDetailBreadcrumb": {
+        "title": "PROGRAM DETAILS",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Programs",
+            "url": "/training-programs"
+          },
+          {
+            "label": "Details"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "ConsultationBreadcrumb": {
+        "title": "FREE CONSULTATION",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Free Consultation"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "AwardsBreadcrumb": {
+        "title": "AWARDS & CERTIFICATIONS",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Awards & Certifications"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.jpg"
+      }
+    },
+    "Footer": {
+      "backgroundImage": "/about/about-truck-port.jpg",
+      "logo": "/main logo/footer logo.png",
+      "logoAlt": "Transworld Logistics Services Logo",
+      "description": "Delivering reliable, efficient and innovative logistics solutions across the globe. We move businesses forward with trust and commitment.",
+      "contact": {
+        "items": [
+          {
+            "id": "ci-1",
+            "icon": "FaPhoneAlt",
+            "text": "+91 98765 43210",
+            "subText": "Mon - Sat, 9:00 AM - 6:00 PM"
+          },
+          {
+            "id": "ci-2",
+            "icon": "FaEnvelope",
+            "text": "info@transworld.com",
+            "subText": "We reply within 24 hours"
+          },
+          {
+            "id": "ci-3",
+            "icon": "FaMapMarkerAlt",
+            "text": "123 Logistics Park, Sector 62",
+            "subText": "Noida, Uttar Pradesh, India"
+          }
+        ]
+      },
+      "socialLinks": [
+        {
+          "id": "fb",
+          "icon": "FaFacebookF",
+          "url": "#"
+        },
+        {
+          "id": "li",
+          "icon": "FaLinkedinIn",
+          "url": "#"
+        },
+        {
+          "id": "ig",
+          "icon": "FaInstagram",
+          "url": "#"
+        },
+        {
+          "id": "yt",
+          "icon": "FaYoutube",
+          "url": "#"
+        }
+      ],
+      "columns": [
+        {
+          "id": "quick-links",
+          "title": "Quick Links",
+          "links": [
+            {
+              "id": "ql-1",
+              "label": "Home",
+              "url": "/"
+            },
+            {
+              "id": "ql-2",
+              "label": "About Us",
+              "url": "/about"
+            },
+            {
+              "id": "ql-3",
+              "label": "Our Services",
+              "url": "/services"
+            },
+            {
+              "id": "ql-4",
+              "label": "Why Choose Us",
+              "url": "/why-choose-us"
+            },
+            {
+              "id": "ql-5",
+              "label": "Our Team",
+              "url": "/team"
+            },
+            {
+              "id": "ql-6",
+              "label": "Blog",
+              "url": "/blog"
+            },
+            {
+              "id": "ql-7",
+              "label": "Careers",
+              "url": "/careers"
+            },
+            {
+              "id": "ql-8",
+              "label": "Contact Us",
+              "url": "/contact"
+            }
+          ]
+        },
+        {
+          "id": "our-services",
+          "title": "Our Services",
+          "links": [
+            {
+              "id": "os-1",
+              "label": "Freight Forwarding",
+              "url": "#"
+            },
+            {
+              "id": "os-2",
+              "label": "Warehousing",
+              "url": "#"
+            },
+            {
+              "id": "os-3",
+              "label": "Supply Chain Solutions",
+              "url": "#"
+            },
+            {
+              "id": "os-4",
+              "label": "Domestic Transportation",
+              "url": "#"
+            },
+            {
+              "id": "os-5",
+              "label": "International Shipping",
+              "url": "#"
+            },
+            {
+              "id": "os-6",
+              "label": "Customs Clearance",
+              "url": "#"
+            },
+            {
+              "id": "os-7",
+              "label": "Project Logistics",
+              "url": "#"
+            },
+            {
+              "id": "os-8",
+              "label": "Last Mile Delivery",
+              "url": "#"
+            }
+          ]
+        }
+      ],
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "Subscribe to our newsletter for the latest updates, industry insights and offers.",
+        "placeholder": "Your Email Address",
+        "buttonIcon": "FaPaperPlane"
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "icon": "FaBox",
+          "label": "Safe &\nSecure"
+        },
+        {
+          "id": "f-2",
+          "icon": "FaHeadset",
+          "label": "24/7\nSupport"
+        },
+        {
+          "id": "f-3",
+          "icon": "FaLeaf",
+          "label": "Sustainable\nLogistics"
+        },
+        {
+          "id": "f-4",
+          "icon": "FaUsers",
+          "label": "Global\nNetwork"
+        }
+      ],
+      "copyright": "© 2025 TransWorld. All Rights Reserved.",
+      "bottomLinks": [
+        {
+          "id": "bl-1",
+          "label": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "id": "bl-2",
+          "label": "Terms & Conditions",
+          "url": "/terms-and-conditions"
+        },
+        {
+          "id": "bl-3",
+          "label": "Sitemap",
+          "url": "/sitemap"
+        }
+      ],
+      "bottomRight": {
+        "icon": "FaGlobe",
+        "text": "MOVING TODAY FOR A BETTER TOMORROW"
+      }
+    }
+  },
+  "categories": {
+    "Transworld": {
+      "templateComponents": {
+        "Transworld": {
+          "shared": {
+            "TopBar": "TransworldTopBar1",
+            "Header": "TransworldHeader1",
+            "Footer": "Footer"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TransworldTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "TransworldHeader1"
+                },
+                {
+                  "key": "HeroSection",
+                  "component": "TransworldHero1"
+                },
+                {
+                  "key": "AboutUs",
+                  "component": "TransworldAbout1"
+                },
+                {
+                  "key": "TrainingPrograms",
+                  "component": "TransworldTraining1"
+                },
+                {
+                  "key": "ProcessSection",
+                  "component": "TransworldProcess1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "TransworldTestimonials1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "TransworldCounter1"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "TransworldBlog1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "TransworldTopBar1": {
+              "hours": "Mon - Fri: 09:00 - 06:00",
+              "phone": "+91 98765 43210",
+              "address": "Plot No. 12, Sector 63, Noida, India",
+              "socialLinks": [
+                {
+                  "id": "tb-fb",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-tw",
+                  "icon": "FaTwitter",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-ig",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-yt",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-web",
+                  "icon": "FaGlobe",
+                  "url": "#"
+                }
+              ],
+              "email": "support@transworldlogistics.com"
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "TransworldHeader1": {
+              "logo": "/main logo/header logo.png",
+              "logoAlt": "Transworld Logistics Services Logo",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "subLinks": [
+                    {
+                      "id": "nav-overview",
+                      "label": "Overview",
+                      "url": "/about"
+                    },
+                    {
+                      "id": "nav-why-choose-us",
+                      "label": "Why Choose Us",
+                      "url": "/why-choose-us"
+                    },
+                    {
+                      "id": "nav-mission",
+                      "label": "Mission & Vision",
+                      "url": "/mission-vision"
+                    },
+                    {
+                      "id": "nav-team",
+                      "label": "Our Team",
+                      "url": "/team"
+                    },
+                    {
+                      "id": "nav-team-detail",
+                      "label": "Team Details",
+                      "url": "/team/rahul-sharma"
+                    },
+                    {
+                      "id": "nav-testimonials",
+                      "label": "Testimonials",
+                      "url": "/testimonials"
+                    },
+                    {
+                      "id": "nav-awards",
+                      "label": "Awards",
+                      "url": "/awards"
+                    },
+                    {
+                      "id": "nav-faq",
+                      "label": "FAQ",
+                      "url": "/faq"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-programs",
+                  "label": "Programs",
+                  "url": "#",
+                  "subLinks": [
+                    {
+                      "id": "nav-programs-training",
+                      "label": "Training Programs",
+                      "url": "/training-programs"
+                    },
+                    {
+                      "id": "nav-programs-details",
+                      "label": "Training Programs Details",
+                      "url": "/training-programs/personal-training"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Our Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nav-pricing",
+                  "label": "Pricing",
+                  "url": "/pricing"
+                },
+                {
+                  "id": "nav-blogs",
+                  "label": "Blogs",
+                  "url": "#",
+                  "subLinks": [
+                    {
+                      "id": "nav-blog",
+                      "label": "Blog",
+                      "url": "/blog"
+                    },
+                    {
+                      "id": "nav-blog-detail",
+                      "label": "Blog Detail",
+                      "url": "/blog/10-simple-habits"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-legal",
+                  "label": "Legal",
+                  "url": "#",
+                  "subLinks": [
+                    {
+                      "id": "nav-privacy-policy",
+                      "label": "Privacy Policy",
+                      "url": "/privacy-policy"
+                    },
+                    {
+                      "id": "nav-terms",
+                      "label": "Terms & Conditions",
+                      "url": "/terms-and-conditions"
+                    },
+                    {
+                      "id": "nav-refund",
+                      "label": "Refund Policy",
+                      "url": "/refund-policy"
+                    },
+                    {
+                      "id": "nav-contact",
+                      "label": "Contact Us",
+                      "url": "/contact"
+                    },
+                    {
+                      "id": "nav-free-consultation",
+                      "label": "Free Consultation",
+                      "url": "/free-consultation"
+                    },
+                    {
+                      "id": "nav-404",
+                      "label": "404 page",
+                      "url": "/404-page"
+                    },
+                    {
+                      "id": "nav-thankyou",
+                      "label": "Thank You page",
+                      "url": "/thank-you"
+                    }
+                  ]
+                }
+              ],
+              "contactButton": {
+                "text": "Get A Quote",
+                "url": "/contact"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "TransworldHero1": {
+              "footerTags": [
+                "1000+ Deliveries Daily",
+                "500+ Happy Clients",
+                "50+ Countries Served",
+                "99% On-Time Delivery"
+              ],
+              "slides": [
+                {
+                  "id": "slide-1",
+                  "image": "/banner/banner.webp",
+                  "imageAlt": "Logistics Plane and Truck",
+                  "tagline": "GLOBAL REACH | RELIABLE DELIVERY | YOUR TRUSTED PARTNER",
+                  "title": "Moving Businesses",
+                  "titleHighlight": "Across the World",
+                  "description": "End-to-end logistics solutions that keep your supply chain moving faster, safer and smarter.",
+                  "primaryButton": {
+                    "text": "Get A Quote",
+                    "url": "/contact"
+                  },
+                  "secondaryButton": {
+                    "text": "Our Services",
+                    "url": "/services"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "TransworldAbout1": {
+              "worldMapBg": "/about/world-map.jpg",
+              "experienceBadge": {
+                "years": "25+",
+                "label": "Years of Experience",
+                "icon": "FaGlobe"
+              },
+              "stats": [
+                {
+                  "id": "stat-1",
+                  "value": "500+",
+                  "label": "Happy Clients",
+                  "icon": "FaUsers"
+                },
+                {
+                  "id": "stat-2",
+                  "value": "50+",
+                  "label": "Countries Served",
+                  "icon": "FaGlobe"
+                },
+                {
+                  "id": "stat-3",
+                  "value": "99%",
+                  "label": "On-Time Delivery",
+                  "icon": "FaShieldAlt"
+                }
+              ],
+              "subtitle": "ABOUT OUR COMPANY",
+              "titlePart1": "Why Businesses Trust",
+              "titleHighlight": "Our Logistics Solutions",
+              "description": "With over four decades of experience providing solutions to large-scale enterprises throughout the globe, we offer end-to-end logistics tailored for specific markets. Our commitment to innovation, reliability, and customer satisfaction makes us a trusted logistics partner for businesses worldwide.",
+              "features": [
+                {
+                  "id": "feat-delivery",
+                  "icon": "FaTruck",
+                  "title": "Fast & Reliable Delivery",
+                  "description": "Your cargo, our responsibility."
+                },
+                {
+                  "id": "feat-solutions",
+                  "icon": "FaBox",
+                  "title": "End-to-End Solutions",
+                  "description": "From origin to destination."
+                },
+                {
+                  "id": "feat-tech",
+                  "icon": "FaLightbulb",
+                  "title": "Smart Technology",
+                  "description": "Innovative solutions for a smarter supply chain."
+                },
+                {
+                  "id": "feat-pricing",
+                  "icon": "FaChartLine",
+                  "title": "Competitive Pricing",
+                  "description": "Maximum value for your business."
+                }
+              ],
+              "buttonText": "About More",
+              "buttonUrl": "/about",
+              "callLabel": "Call Us Any Time:",
+              "callNumber": "+91 98765 43210",
+              "imagePlane": "/about/about-collage.jpg",
+              "imageMain": "/about/img.webp"
+            }
+          }
+        },
+        "AboutPageContent": {
+          "variants": {
+            "TransworldAboutPageContent1": {
+              "subtitle": "About Us",
+              "watermarkText": "ABOUT US",
+              "titlePart1": "We Are Pushing Limit Of The Year",
+              "titleHighlight": "Core Strength",
+              "descriptions": [
+                "At Transworld Logistics Services, we believe fitness is more than just a workout — it's a lifestyle. Our mission is to help you become stronger, healthier, and more confident through expert guidance, modern training methods, and a supportive community.",
+                "We are dedicated to providing world-class training facilities and expert coaches who genuinely care about your progress. Whether you are a beginner or a seasoned athlete, we have a program tailored just for you.",
+                "Our approach goes beyond physical training. We focus on building healthy habits, mental resilience, and a positive mindset — because true fitness is a complete lifestyle transformation."
+              ],
+              "image1": "/about/about-2.jpg",
+              "image2": "/about/about-1.jpg",
+              "image1Alt": "Personal Training",
+              "image2Alt": "Workout Session",
+              "experienceYears": "15",
+              "experienceLabel": "YEARS OF\nEXPERIENCE",
+              "bottomTags": [
+                "FITNESS",
+                "STRENGTH",
+                "WELLNESS"
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "TransworldWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "titlePart1": "Transportation Services We Are",
+              "titleHighlight": "Often Considered",
+              "description": "We go beyond transportation — we deliver reliability, efficiency and peace of mind. Here is why businesses trust us.",
+              "image": "/choose/choose-main.png",
+              "imageAlt": "Transportation Services",
+              "scriptText": "",
+              "bottomTagline": "",
+              "features": [
+                {
+                  "id": "wc-1",
+                  "icon": "FaUsers",
+                  "title": "Experienced Team",
+                  "description": "A skilled team ensuring smooth operations."
+                },
+                {
+                  "id": "wc-2",
+                  "icon": "FaCog",
+                  "title": "Reliable & On Time",
+                  "description": "We value your time and deliver as promised."
+                },
+                {
+                  "id": "wc-3",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe & Secure",
+                  "description": "Your cargo is in safe hands with us."
+                },
+                {
+                  "id": "wc-4",
+                  "icon": "FaBox",
+                  "title": "Wide Range of Services",
+                  "description": "End-to-end logistics under one roof."
+                },
+                {
+                  "id": "wc-5",
+                  "icon": "FaGlobe",
+                  "title": "Global Reach",
+                  "description": "Connecting businesses across the world."
+                },
+                {
+                  "id": "wc-6",
+                  "icon": "FaHeadset",
+                  "title": "Customer Support",
+                  "description": "Always here to assist you, 24/7."
+                }
+              ]
+            }
+          }
+        },
+        "Mission": {
+          "variants": {
+            "TransworldMission1": {
+              "backgroundNumber": "01",
+              "subtitle": "WHY CHOOSE US",
+              "titlePart1": "MORE THAN A GYM,",
+              "titleHighlight": "A STRONGER YOU",
+              "description1": "At Transworld Logistics Services, we believe fitness is more than just a workout — it's a lifestyle. We provide the right environment, expert guidance and unwavering support to help you become stronger, healthier and more confident every day.",
+              "description2": "Our mission is to make fitness simple, accessible and enjoyable for everyone, regardless of age, fitness level or starting point.",
+              "image": "/mission/mission.webp",
+              "imageAlt": "Woman lifting dumbbells"
+            }
+          }
+        },
+        "Vision": {
+          "variants": {
+            "TransworldVision1": {
+              "backgroundNumber": "02",
+              "subtitle": "OUR COMMITMENT",
+              "titlePart1": "BUILDING ",
+              "titleHighlight": "A BRIGHTER TOMORROW",
+              "description1": "We are committed to building a healthier, stronger and more confident community where fitness becomes a lifelong habit.",
+              "description2": "Through expert training, modern facilities and a supportive environment, we empower individuals to take control of their health, unlock their potential and live a more energetic, fulfilling life.",
+              "image": "/mission/vision.webp",
+              "imageAlt": "Man lifting dumbbells"
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "TransworldProcess1": {
+              "subtitle": "HOW IT WORKS",
+              "titlePart1": "From Request to",
+              "titleHighlight": "Delivery",
+              "description": "A simple and transparent process to move your goods, anywhere in the world.",
+              "image": "/about/world-map.jpg",
+              "imageAlt": "World Map",
+              "steps": [
+                {
+                  "id": "step-1",
+                  "icon": "FaFileAlt",
+                  "stepNumber": "01",
+                  "title": "Request A Quote",
+                  "description": "Share your shipment details and get a customized quote quickly."
+                },
+                {
+                  "id": "step-2",
+                  "icon": "FaBox",
+                  "stepNumber": "02",
+                  "title": "Packaging",
+                  "description": "We ensure secure and standard packaging for safe transportation."
+                },
+                {
+                  "id": "step-3",
+                  "icon": "FaTruck",
+                  "stepNumber": "03",
+                  "title": "Send The Parcel",
+                  "description": "Your goods are picked up and moved through our trusted network."
+                },
+                {
+                  "id": "step-4",
+                  "icon": "FaShippingFast",
+                  "stepNumber": "04",
+                  "title": "Deliver Parcel",
+                  "description": "We deliver your shipment safely and on time, anywhere in the world."
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "TransworldTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "titlePart1": "What Our Clients ",
+              "titleHighlight": "Say",
+              "description": "Real stories from businesses that trust us for their logistics and transportation needs. Their success drives us to go further, every day.",
+              "testimonials": [
+                {
+                  "id": "test-1",
+                  "image": "/team/c1.webp",
+                  "name": "Rohit Sharma",
+                  "designation": "Operations Manager, Sharma Exports Pvt. Ltd.",
+                  "rating": 5,
+                  "text": "Excellent service and support! Our shipments always arrive on time, and the team is very professional. Highly recommended for any business looking for a reliable logistics partner."
+                },
+                {
+                  "id": "test-2",
+                  "image": "/team/c2.webp",
+                  "name": "Priya Mehta",
+                  "designation": "Director, Mehta Global Trading",
+                  "rating": 5,
+                  "text": "A trustworthy and efficient logistics company. They handled our international shipments smoothly and kept us updated at every step. Great communication and service!"
+                },
+                {
+                  "id": "test-3",
+                  "image": "/team/c3.webp",
+                  "name": "Amit Verma",
+                  "designation": "Purchase Head, Verma Auto Components",
+                  "rating": 5,
+                  "text": "The best logistics partner we have worked with. Safe, timely and cost-effective solutions. Their team understands our needs and always delivers beyond expectations."
+                },
+                {
+                  "id": "test-4",
+                  "image": "/team/c1.webp",
+                  "name": "Rohit Sharma",
+                  "designation": "Operations Manager, Sharma Exports Pvt. Ltd.",
+                  "rating": 5,
+                  "text": "Excellent service and support! Our shipments always arrive on time, and the team is very professional. Highly recommended for any business looking for a reliable logistics partner."
+                }
+              ]
+            }
+          }
+        },
+        "Counter": {
+          "variants": {
+            "TransworldCounter1": {
+              "subtitle": "OUR IMPACT",
+              "titlePart1": "REAL PEOPLE. ",
+              "titleHighlight": "REAL RESULTS.",
+              "description": "Numbers that reflect the trust, dedication and progress of our fitness community.",
+              "backgroundImage": "/other/impact.webp",
+              "stats": [
+                {
+                  "id": "stat-1",
+                  "value": "110",
+                  "suffix": "+",
+                  "label": "Vehicles Delivered",
+                  "icon": "FaTruck"
+                },
+                {
+                  "id": "stat-2",
+                  "value": "175",
+                  "suffix": "k+",
+                  "label": "Sq. Ft. of Storage",
+                  "icon": "FaWarehouse"
+                },
+                {
+                  "id": "stat-3",
+                  "value": "550",
+                  "suffix": "+",
+                  "label": "Happy Clients",
+                  "icon": "FaUsers"
+                },
+                {
+                  "id": "stat-4",
+                  "value": "995",
+                  "suffix": "+",
+                  "label": "Cities We Serve",
+                  "icon": "FaGlobeAmericas"
+                }
+              ]
+            }
+          }
+        },
+        "Blog": {
+          "variants": {
+            "TransworldBlog1": {
+              "subtitle": "OUR BLOG",
+              "titlePart1": "LATEST ",
+              "titleHighlight": "FITNESS INSIGHTS",
+              "description": "Tips, training advice and healthy living ideas to help you stay on track and reach your fitness goals.",
+              "buttonText": "View All Blogs",
+              "buttonUrl": "/blog",
+              "blogs": [
+                {
+                  "id": "blog-1",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "Logistics cargo plane",
+                  "category": "Logistics",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Janes Cooper",
+                  "authorImage": "/team/c1.webp",
+                  "comments": "Comment",
+                  "title": "Mastering Last Mile Delivery Strategies For Success In Your Business",
+                  "excerpt": "Learn the key strategies for mastering last mile delivery and improving your logistics efficiency.",
+                  "url": "/blog/mastering-last-mile-delivery",
+                  "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-2",
+                  "image": "/blog/2.jpg",
+                  "imageAlt": "Cargo loading",
+                  "category": "Transport",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Kevin Cooper",
+                  "authorImage": "/team/c2.webp",
+                  "comments": "Comment",
+                  "title": "Logistics Announces Launch Of Greenhouse Gas Effect",
+                  "excerpt": "Our latest initiatives to reduce carbon footprint in global transportation.",
+                  "url": "/blog/greenhouse-gas-effect",
+                  "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-3",
+                  "image": "/blog/3.jpg",
+                  "imageAlt": "Truck delivery",
+                  "category": "Agency",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Alisa Fox",
+                  "authorImage": "/team/c3.webp",
+                  "comments": "Comment",
+                  "title": "We Ensures You The Best Quality Services For Your Business",
+                  "excerpt": "Discover why top businesses trust us for their supply chain needs.",
+                  "url": "/blog/quality-services",
+                  "readMoreText": "Read More"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "TransworldTeam1": {
+              "subtitle": "OUR TEAM",
+              "titlePart1": "Meet Our ",
+              "titleHighlight": "Expert Team",
+              "description": "Passionate professionals dedicated to helping you become a stronger, healthier and happier you.",
+              "members": [
+                {
+                  "id": "rahul-sharma",
+                  "image": "/team/team-1.jpg",
+                  "name": "Rahul Sharma",
+                  "role": "Head Trainer",
+                  "shortDescription": "Specializes in strength training, muscle building and functional fitness.",
+                  "quote": "\"Fitness is not a destination, it's a way of life.\"",
+                  "biography": "Rahul Sharma is a certified fitness professional with over 8 years of experience in strength training. He is passionate about helping people achieve their fitness goals through safe, effective and personalized training programs.\n\nWith a strong focus on discipline, consistency and proper technique, Rahul has trained clients of all fitness levels.",
+                  "experience": "8+ Years",
+                  "certification": "ACE Certified Personal Trainer",
+                  "specialization": "Strength Training, Muscle Building",
+                  "trainingStyle": "Goal Oriented & Personalized",
+                  "quickInfo": {
+                    "position": "Head Trainer",
+                    "experience": "8+ Years",
+                    "specialization": "Strength Training, Muscle Building",
+                    "certification": "ACE Certified",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaDumbbell",
+                      "title": "Strength Training",
+                      "description": "Build strength and endurance with proven training methods."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaFire",
+                      "title": "Muscle Building",
+                      "description": "Science-based programs for lean muscle gain."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaRunning",
+                      "title": "Functional Fitness",
+                      "description": "Improve mobility, flexibility and overall performance."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaClipboardList",
+                      "title": "Fitness Guidance",
+                      "description": "Personalized plans for long-term results."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-2",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-3",
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-4",
+                      "icon": "FaYoutube",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "rohan-mehta",
+                  "image": "/team/team-2.jpg",
+                  "name": "Rohan Mehta",
+                  "role": "Fitness Trainer",
+                  "shortDescription": "Expert in weight loss, HIIT and personal training for all fitness levels.",
+                  "quote": "\"Sweat is just fat crying.\"",
+                  "biography": "Priya brings high energy and motivation to every session. He believes in making fitness fun while pushing his clients to reach their full potential.",
+                  "experience": "5+ Years",
+                  "certification": "ISSA Certified Fitness Trainer",
+                  "specialization": "Weight Loss, HIIT",
+                  "trainingStyle": "High Energy & Fun",
+                  "quickInfo": {
+                    "position": "Fitness Trainer",
+                    "experience": "5+ Years",
+                    "specialization": "Weight Loss, HIIT",
+                    "certification": "ISSA Certified",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaFire",
+                      "title": "HIIT",
+                      "description": "High-intensity interval training for maximum calorie burn."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaHeartbeat",
+                      "title": "Cardio",
+                      "description": "Improve heart health and endurance."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition",
+                      "description": "Basic guidance on healthy eating habits."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaRunning",
+                      "title": "Weight Loss",
+                      "description": "Structured programs to shed excess fat safely."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-2",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-3",
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "amit-verma",
+                  "image": "/team/team-3.jpg",
+                  "name": "Amit Verma",
+                  "role": "Strength & Conditioning Coach",
+                  "shortDescription": "Focuses on athletic performance, endurance and conditioning.",
+                  "quote": "\"Train insane or remain the same.\"",
+                  "biography": "Amit specializes in training athletes and individuals looking to push past their limits.",
+                  "experience": "7+ Years",
+                  "certification": "CSCS",
+                  "specialization": "Athletic Performance, Conditioning",
+                  "trainingStyle": "Intense & Result-driven",
+                  "quickInfo": {
+                    "position": "S&C Coach",
+                    "experience": "7+ Years",
+                    "specialization": "Conditioning, Performance",
+                    "certification": "CSCS",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaDumbbell",
+                      "title": "Olympic Weightlifting",
+                      "description": "Master complex lifts and improve power."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaBolt",
+                      "title": "Agility Training",
+                      "description": "Improve speed, coordination and reaction time."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaChild",
+                      "title": "Sports Specific",
+                      "description": "Training tailored for your sport."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaMedal",
+                      "title": "Competition Prep",
+                      "description": "Get ready for your next big event."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-2",
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-3",
+                      "icon": "FaYoutube",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "siddharth-kapoor",
+                  "image": "/team/team-4.jpg",
+                  "name": "Siddharth Kapoor",
+                  "role": "Nutrition Expert",
+                  "shortDescription": "Helps you achieve your goals with customized diet and nutrition plans.",
+                  "quote": "\"You are what you eat, so don't be fast, cheap, easy, or fake.\"",
+                  "biography": "Sneha believes that nutrition is 80% of the battle. He works with clients to build sustainable, healthy eating habits.",
+                  "experience": "6+ Years",
+                  "certification": "Registered Dietitian",
+                  "specialization": "Sports Nutrition, Weight Management",
+                  "trainingStyle": "Holistic & Sustainable",
+                  "quickInfo": {
+                    "position": "Nutrition Expert",
+                    "experience": "6+ Years",
+                    "specialization": "Sports Nutrition",
+                    "certification": "Registered Dietitian",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaAppleAlt",
+                      "title": "Meal Planning",
+                      "description": "Customized plans fitting your lifestyle."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaCarrot",
+                      "title": "Weight Management",
+                      "description": "Sustainable strategies for long-term success."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaLeaf",
+                      "title": "Vegan/Vegetarian",
+                      "description": "Plant-based nutrition guidance."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaListAlt",
+                      "title": "Macro Tracking",
+                      "description": "Learn how to track your food effectively."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-2",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "vikram-singh",
+                  "image": "/team/team-5.jpg",
+                  "name": "Vikram Singh",
+                  "role": "Functional Training Coach",
+                  "shortDescription": "Specializes in functional training, mobility and injury prevention.",
+                  "quote": "\"Move better to live better.\"",
+                  "biography": "Vikram's approach focuses on improving how your body moves in everyday life, not just how it looks.",
+                  "experience": "4+ Years",
+                  "certification": "FMS Level 2",
+                  "specialization": "Mobility, Injury Prevention",
+                  "trainingStyle": "Mindful & Corrective",
+                  "quickInfo": {
+                    "position": "Functional Coach",
+                    "experience": "4+ Years",
+                    "specialization": "Mobility, Rehab",
+                    "certification": "FMS Level 2",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaWalking",
+                      "title": "Mobility",
+                      "description": "Improve joint health and range of motion."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaYinYang",
+                      "title": "Balance Training",
+                      "description": "Enhance stability and core strength."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaBandAid",
+                      "title": "Injury Prevention",
+                      "description": "Bulletproof your body against common injuries."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaSync",
+                      "title": "Corrective Exercise",
+                      "description": "Fix imbalances and poor movement patterns."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "id": "soc-2",
+                      "icon": "FaYoutube",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "naveen-rathi",
+                  "image": "/team/team-2.jpg",
+                  "name": "Naveen Rathi",
+                  "role": "Group Class Instructor",
+                  "shortDescription": "Leads energizing group sessions like Zumba, HIIT and circuit training.",
+                  "quote": "\"Find your tribe, love them hard.\"",
+                  "biography": "Naveen is the life of the party in group classes. Her energy is infectious, making every workout feel like a celebration.",
+                  "experience": "3+ Years",
+                  "certification": "Zumba Certified",
+                  "specialization": "Group Fitness, Zumba",
+                  "trainingStyle": "High Energy & Community-Focused",
+                  "quickInfo": {
+                    "position": "Group Instructor",
+                    "experience": "3+ Years",
+                    "specialization": "Zumba, Group Fitness",
+                    "certification": "Zumba Certified",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaMusic",
+                      "title": "Zumba",
+                      "description": "Dance your way to fitness."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaUsers",
+                      "title": "Bootcamps",
+                      "description": "Outdoor and indoor intense group training."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaBiking",
+                      "title": "Spin",
+                      "description": "High-intensity indoor cycling classes."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaSmile",
+                      "title": "Community Building",
+                      "description": "Creating a welcoming environment for all."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "karan-malhotra",
+                  "image": "/team/team-3.jpg",
+                  "name": "Karan Malhotra",
+                  "role": "Member Support",
+                  "shortDescription": "Ensures a smooth and motivating fitness experience for all members.",
+                  "quote": "\"We are here for you.\"",
+                  "biography": "Karan is the friendly face that welcomes you every day. He ensures that all members feel supported on their fitness journey.",
+                  "experience": "5+ Years",
+                  "certification": "Customer Service Management",
+                  "specialization": "Member Relations",
+                  "trainingStyle": "Supportive",
+                  "quickInfo": {
+                    "position": "Member Support",
+                    "experience": "5+ Years",
+                    "specialization": "Customer Relations",
+                    "certification": "CSM",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaHeadset",
+                      "title": "Support",
+                      "description": "Always ready to help with your queries."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaClipboardCheck",
+                      "title": "Onboarding",
+                      "description": "Guiding new members through the facility."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaCalendarCheck",
+                      "title": "Scheduling",
+                      "description": "Managing class bookings and PT sessions."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaRegSmile",
+                      "title": "Member Experience",
+                      "description": "Ensuring a positive environment."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "prateek-desai",
+                  "image": "/team/team-4.jpg",
+                  "name": "Prateek Desai",
+                  "role": "Client Relationship Manager",
+                  "shortDescription": "Dedicated to understanding your needs and helping you stay on track.",
+                  "quote": "\"Your success is our success.\"",
+                  "biography": "Prateek works closely with our trainers to ensure clients are meeting their goals and getting the best possible experience.",
+                  "experience": "4+ Years",
+                  "certification": "Business Admin",
+                  "specialization": "Client Retention",
+                  "trainingStyle": "Empathetic & Organized",
+                  "quickInfo": {
+                    "position": "CRM",
+                    "experience": "4+ Years",
+                    "specialization": "Client Management",
+                    "certification": "BBA",
+                    "location": "Transworld Gym, New Delhi"
+                  },
+                  "expertise": [
+                    {
+                      "id": "exp-1",
+                      "icon": "FaHandshake",
+                      "title": "Consultations",
+                      "description": "Initial assessments and goal setting."
+                    },
+                    {
+                      "id": "exp-2",
+                      "icon": "FaChartLine",
+                      "title": "Progress Tracking",
+                      "description": "Monitoring member results and satisfaction."
+                    },
+                    {
+                      "id": "exp-3",
+                      "icon": "FaComments",
+                      "title": "Feedback",
+                      "description": "Gathering and implementing member suggestions."
+                    },
+                    {
+                      "id": "exp-4",
+                      "icon": "FaStar",
+                      "title": "VIP Services",
+                      "description": "Managing premium member accounts."
+                    }
+                  ],
+                  "social": [
+                    {
+                      "id": "soc-1",
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "TeamDetail": {
+          "variants": {
+            "TransworldTeamDetail1": {
+              "teamMemberId": ""
+            }
+          }
+        },
+        "TrainingDetail": {
+          "variants": {
+            "TransworldTrainingDetail1": {
+              "programs": [
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "personal-training",
+                  "slug": "personal-training",
+                  "titlePart1": "Personal ",
+                  "titleHighlight": "Training",
+                  "programType": "Personal Training"
+                },
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "weight-loss",
+                  "slug": "weight-loss",
+                  "titlePart1": "Weight ",
+                  "titleHighlight": "Loss",
+                  "programType": "Weight Loss Training"
+                },
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "muscle-building",
+                  "slug": "muscle-building",
+                  "titlePart1": "Muscle ",
+                  "titleHighlight": "Building",
+                  "programType": "Muscle Building"
+                },
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "cardio",
+                  "slug": "cardio",
+                  "titlePart1": "Cardio ",
+                  "titleHighlight": "Training",
+                  "programType": "Cardio Training"
+                },
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "functional",
+                  "slug": "functional",
+                  "titlePart1": "Functional ",
+                  "titleHighlight": "Training",
+                  "programType": "Functional Training"
+                },
+                {
+                  "subtitle": "PROGRAM OVERVIEW",
+                  "description": "Our comprehensive training program is designed to help you achieve optimal fitness, increase endurance and improve overall strength. Whether you're a beginner or an experienced athlete, our structured training plans are tailored to your fitness level and goals.\n\nWith the guidance of our certified trainers, you'll learn proper techniques, follow progressive workouts and stay motivated throughout your fitness journey.",
+                  "overviewFeatures": [
+                    {
+                      "id": "of-1",
+                      "icon": "FaDumbbell",
+                      "title": "Build Strength",
+                      "description": "Increase muscular strength and power."
+                    },
+                    {
+                      "id": "of-2",
+                      "icon": "FaChartLine",
+                      "title": "Improve Endurance",
+                      "description": "Boost stamina for better performance."
+                    },
+                    {
+                      "id": "of-3",
+                      "icon": "FaHeartbeat",
+                      "title": "Better Health",
+                      "description": "Support a healthier lifestyle and mindset."
+                    },
+                    {
+                      "id": "of-4",
+                      "icon": "FaBullseye",
+                      "title": "Achieve Goals",
+                      "description": "Personalized plans to reach your targets."
+                    }
+                  ],
+                  "level": "All Levels",
+                  "duration": "8 - 16 Weeks",
+                  "trainerSupport": "Yes",
+                  "equipment": "Gym Equipment",
+                  "location": "Transworld Gym",
+                  "suitableFor": [
+                    {
+                      "id": "sf-1",
+                      "text": "Muscle building"
+                    },
+                    {
+                      "id": "sf-2",
+                      "text": "Strength improvement"
+                    },
+                    {
+                      "id": "sf-3",
+                      "text": "Fat loss & body toning"
+                    },
+                    {
+                      "id": "sf-4",
+                      "text": "Athletic performance"
+                    }
+                  ],
+                  "image1": "/other/image1.webp",
+                  "image2": "/banner/hero_bg_1.jpg",
+                  "highlightsSubtitle": "WHAT YOU'LL GET",
+                  "highlightsTitlePart1": "Program ",
+                  "highlightsTitleHighlight": "Highlights",
+                  "highlights": [
+                    {
+                      "id": "hl-1",
+                      "icon": "FaDumbbell",
+                      "title": "Structured Workouts",
+                      "description": "Scientifically designed training plans for maximum results."
+                    },
+                    {
+                      "id": "hl-2",
+                      "icon": "FaClipboardList",
+                      "title": "Expert Guidance",
+                      "description": "One-on-one and group support from certified trainers."
+                    },
+                    {
+                      "id": "hl-3",
+                      "icon": "FaAppleAlt",
+                      "title": "Nutrition Support",
+                      "description": "Guidance on diet and nutrition to complement your training."
+                    },
+                    {
+                      "id": "hl-4",
+                      "icon": "FaUsers",
+                      "title": "Track Progress",
+                      "description": "Regular assessments to monitor your improvement."
+                    },
+                    {
+                      "id": "hl-5",
+                      "icon": "FaStar",
+                      "title": "Stay Motivated",
+                      "description": "Be part of a supportive fitness community."
+                    }
+                  ],
+                  "bannerSubtitle": "READY TO GET STRONGER?",
+                  "bannerTitlePart1": "TRANSFORM ",
+                  "bannerTitleHighlight": "YOURSELF",
+                  "bannerDescription": "Commit today. A stronger, healthier tomorrow is waiting.",
+                  "bannerBgImage": "/banner/banner1.webp",
+                  "id": "group",
+                  "slug": "group",
+                  "titlePart1": "Group ",
+                  "titleHighlight": "Training",
+                  "programType": "Group Training"
+                }
+              ]
+            }
+          }
+        },
+        "PricingCards": {
+          "variants": {
+            "TransworldPricingCards1": {
+              "subtitle": "OUR PRICING PLANS",
+              "titlePart1": "Simple. Flexible. ",
+              "titleHighlight": "Effective.",
+              "description": "No hidden fees. No complicated terms. Just honest pricing for a healthier, stronger you.",
+              "plans": [
+                {
+                  "id": "plan-basic",
+                  "name": "Basic Plan",
+                  "subtitle": "Great for getting started",
+                  "price": "1,499",
+                  "period": "/ month",
+                  "isPopular": false,
+                  "features": [
+                    "Gym Access (Single Location)",
+                    "Standard Equipment",
+                    "General Fitness Guidance",
+                    "Access to Group Workouts",
+                    "Locker Room Access"
+                  ]
+                },
+                {
+                  "id": "plan-standard",
+                  "name": "Standard Plan",
+                  "subtitle": "Most popular choice",
+                  "price": "2,499",
+                  "period": "/ month",
+                  "isPopular": false,
+                  "features": [
+                    "Gym Access (All Locations)",
+                    "Personalized Workout Plan",
+                    "Group Classes (All Types)",
+                    "Basic Nutrition Guidance",
+                    "Locker Room Access",
+                    "Progress Tracking"
+                  ]
+                },
+                {
+                  "id": "plan-premium",
+                  "name": "Premium Plan",
+                  "subtitle": "For serious results",
+                  "price": "3,999",
+                  "period": "/ month",
+                  "isPopular": true,
+                  "features": [
+                    "Gym Access (All Locations)",
+                    "Personalized Training Plan",
+                    "1-on-1 Trainer Support (2 Sessions/Month)",
+                    "Advanced Nutrition Guidance",
+                    "Group Classes (All Types)",
+                    "Progress Tracking & Assessment",
+                    "Priority Support"
+                  ]
+                },
+                {
+                  "id": "plan-elite",
+                  "name": "Elite Plan",
+                  "subtitle": "Complete transformation",
+                  "price": "5,999",
+                  "period": "/ month",
+                  "isPopular": false,
+                  "features": [
+                    "Gym Access (All Locations)",
+                    "Unlimited 1-on-1 Training",
+                    "Customized Nutrition Plan",
+                    "Body Composition Analysis",
+                    "Group Classes (All Types)",
+                    "Progress Tracking & Reports",
+                    "Lifestyle & Wellness Coaching",
+                    "Priority Support"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "PricingTable": {
+          "variants": {
+            "TransworldPricingTable1": {
+              "subtitle": "PLAN COMPARISON",
+              "titlePart1": "Find the Right Fit\nfor ",
+              "titleHighlight": "Your Goals",
+              "description": "Compare features and choose the plan\nthat works best for you.",
+              "plans": [
+                "Basic",
+                "Standard",
+                "Premium",
+                "Elite"
+              ],
+              "features": [
+                {
+                  "id": "feat-1",
+                  "featureName": "Gym Access",
+                  "basic": "Single Location",
+                  "standard": "All Locations",
+                  "premium": "All Locations",
+                  "elite": "All Locations"
+                },
+                {
+                  "id": "feat-2",
+                  "featureName": "Personalized Plan",
+                  "basic": false,
+                  "standard": true,
+                  "premium": true,
+                  "elite": true
+                },
+                {
+                  "id": "feat-3",
+                  "featureName": "1-on-1 Training",
+                  "basic": false,
+                  "standard": false,
+                  "premium": "2/Month",
+                  "elite": "Unlimited"
+                },
+                {
+                  "id": "feat-4",
+                  "featureName": "Nutrition Guidance",
+                  "basic": "Basic",
+                  "standard": "Basic",
+                  "premium": "Advanced",
+                  "elite": "Customized"
+                },
+                {
+                  "id": "feat-5",
+                  "featureName": "Group Classes",
+                  "basic": "Limited",
+                  "standard": "All",
+                  "premium": "All",
+                  "elite": "All"
+                },
+                {
+                  "id": "feat-6",
+                  "featureName": "Progress Tracking",
+                  "basic": false,
+                  "standard": true,
+                  "premium": true,
+                  "elite": true
+                },
+                {
+                  "id": "feat-7",
+                  "featureName": "Body Analysis",
+                  "basic": false,
+                  "standard": false,
+                  "premium": false,
+                  "elite": true
+                }
+              ]
+            }
+          }
+        },
+        "ConsultationTop": {
+          "variants": {
+            "TransworldConsultationTop1": {
+              "subtitle": "WHY BOOK A CONSULTATION",
+              "titlePart1": "Personalized Guidance\nfor ",
+              "titleHighlight": "Real Results",
+              "description": "Our free consultation helps you understand your current fitness level, set realistic goals and get a customized plan from our experts. Whether you're a beginner or looking to take your fitness to the next level, we're here to guide you.",
+              "features": [
+                {
+                  "id": "cf-1",
+                  "icon": "FaUsers",
+                  "title": "Expert Advice",
+                  "description": "Get guidance from certified fitness professionals."
+                },
+                {
+                  "id": "cf-2",
+                  "icon": "FaBullseye",
+                  "title": "Customized Plan",
+                  "description": "Plans tailored to your goals and lifestyle."
+                },
+                {
+                  "id": "cf-3",
+                  "icon": "FaHeartbeat",
+                  "title": "Clear Your Doubts",
+                  "description": "Ask anything about workouts, diet, or memberships."
+                },
+                {
+                  "id": "cf-4",
+                  "icon": "FaBolt",
+                  "title": "No Cost. No Obligation",
+                  "description": "It's completely free and pressure-free."
+                }
+              ],
+              "formSubtitle": "BOOK YOUR",
+              "formTitlePart1": "Free ",
+              "formTitleHighlight": "Consultation",
+              "formDescription": "Fill in your details and our team will get in touch with you soon.",
+              "buttonText": "Book My Free Consultation",
+              "privacyText": "Your information is safe with us. We respect your privacy."
+            }
+          }
+        },
+        "ConsultationBottom": {
+          "variants": {
+            "TransworldConsultationBottom1": {
+              "subtitle": "HOW IT WORKS",
+              "titlePart1": "Your Fitness Journey\n",
+              "titleHighlight": "Starts Here",
+              "description": "Booking a free consultation is quick and easy. Follow these simple steps and let our experts guide you towards a healthier, fitter you.",
+              "steps": [
+                {
+                  "id": "cs-1",
+                  "stepNumber": "01",
+                  "title": "Fill the Form",
+                  "description": "Share your basic details."
+                },
+                {
+                  "id": "cs-2",
+                  "stepNumber": "02",
+                  "title": "Get a Call",
+                  "description": "Our team will reach out to confirm."
+                },
+                {
+                  "id": "cs-3",
+                  "stepNumber": "03",
+                  "title": "Consult with Expert",
+                  "description": "Discuss your goals and get personalized advice."
+                },
+                {
+                  "id": "cs-4",
+                  "stepNumber": "04",
+                  "title": "Start Your Journey",
+                  "description": "Choose the right plan and begin your transformation."
+                }
+              ],
+              "image": "/about/about-2.jpg",
+              "imageAlt": "Real People Real Progress",
+              "imageOverlayText": "REAL\nPEOPLE\nREAL\nPROGRESS"
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "TransworldContact1": {
+              "subtitle": "GET IN TOUCH",
+              "titlePart1": "Let's Start Your\n",
+              "titleHighlight": "Fitness Journey",
+              "description": "Have questions about our programs, membership plans or training sessions? Our team is here to help you with all the information you need.",
+              "contactInfo": [
+                {
+                  "id": "ci-1",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "lines": [
+                    "+91 98765 43210",
+                    "Mon - Sat, 9AM - 7PM"
+                  ]
+                },
+                {
+                  "id": "ci-2",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "lines": [
+                    "support@transworld.com",
+                    "We reply within 24 hours"
+                  ]
+                },
+                {
+                  "id": "ci-3",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Visit Us",
+                  "lines": [
+                    "123 Fitness Street,",
+                    "New Delhi, India - 110001"
+                  ]
+                },
+                {
+                  "id": "ci-4",
+                  "icon": "FaClock",
+                  "title": "Our Hours",
+                  "lines": [
+                    "Mon - Sat: 6:00 AM - 10:00 PM",
+                    "Sunday: 6:00 AM - 6:00 PM"
+                  ]
+                }
+              ],
+              "socialLinks": [
+                {
+                  "id": "sl-1",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-2",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-3",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-4",
+                  "icon": "FaLinkedinIn",
+                  "url": "#"
+                }
+              ],
+              "formSubtitle": "SEND US A MESSAGE",
+              "formTitlePart1": "We're Here ",
+              "formTitleHighlight": "to Help",
+              "formDescription": "Fill out the form and our team\nwill get back to you shortly.",
+              "submitText": "Send Message"
+            }
+          }
+        },
+        "ContactLocation": {
+          "variants": {
+            "TransworldContactLocation1": {
+              "subtitle": "OUR LOCATION",
+              "titlePart1": "Find Us ",
+              "titleHighlight": "Here",
+              "description": "Visit our gym and experience a world-class fitness environment with state-of-the-art equipment, expert trainers and a supportive community.",
+              "buttonText": "Get Directions",
+              "buttonUrl": "https://maps.google.com",
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114827184429!2d77.20966455!3d28.6289299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xc46188eb6120bdc3!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+              "backgroundImage": "/banner/ban1.jpg"
+            }
+          }
+        },
+        "AwardsCounter": {
+          "variants": {
+            "TransworldAwardsCounter1": {
+              "stats": [
+                {
+                  "id": "stat-1",
+                  "icon": "FaAward",
+                  "value": "25",
+                  "suffix": "+",
+                  "title": "Industry Awards",
+                  "description": "Recognized for excellence"
+                },
+                {
+                  "id": "stat-2",
+                  "icon": "FaUsers",
+                  "value": "10,000",
+                  "suffix": "+",
+                  "title": "Happy Members",
+                  "description": "Trust our expertise"
+                },
+                {
+                  "id": "stat-3",
+                  "icon": "FaShieldAlt",
+                  "value": "100",
+                  "suffix": "%",
+                  "title": "Certified Trainers",
+                  "description": "Globally recognized"
+                },
+                {
+                  "id": "stat-4",
+                  "icon": "FaTrophy",
+                  "value": "5",
+                  "suffix": "+",
+                  "title": "Years of Impact",
+                  "description": "Building healthier lives"
+                }
+              ]
+            }
+          }
+        },
+        "AwardsMilestones": {
+          "variants": {
+            "TransworldAwardsMilestones1": {
+              "subtitle": "OUR ACHIEVEMENTS",
+              "titlePart1": "Milestones That ",
+              "titleHighlight": "Motivate Us",
+              "description": "Over the years, Transworld has been honored with prestigious awards for our dedication to fitness, community wellness and client success.",
+              "buttonText": "View Our Journey",
+              "buttonUrl": "/about",
+              "backgroundImage": "/banner/hero_bg_1.jpg",
+              "milestones": [
+                {
+                  "id": "m-1",
+                  "image": "/award/award-1.png",
+                  "imageAlt": "Fitness Excellence Award",
+                  "title": "Fitness Excellence Award",
+                  "year": "2023",
+                  "description": "For outstanding contribution to health & fitness."
+                },
+                {
+                  "id": "m-2",
+                  "image": "/award/award-2.png",
+                  "imageAlt": "Best Gym of the Year",
+                  "title": "Best Gym of the Year",
+                  "year": "2022",
+                  "description": "Recognized for exceptional training programs."
+                },
+                {
+                  "id": "m-3",
+                  "image": "/award/award-3.png",
+                  "imageAlt": "Community Health Champion",
+                  "title": "Community Health Champion",
+                  "year": "2021",
+                  "description": "For promoting a Healthier and stronger community."
+                },
+                {
+                  "id": "m-4",
+                  "image": "/award/award-4.png",
+                  "imageAlt": "Client Satisfaction Award",
+                  "title": "Client Satisfaction Award",
+                  "year": "2020",
+                  "description": "For excellence in customer experience."
+                }
+              ]
+            }
+          }
+        },
+        "AwardsCertifications": {
+          "variants": {
+            "TransworldAwardsCertifications1": {
+              "subtitle": "OUR CERTIFICATIONS",
+              "titlePart1": "Certified by ",
+              "titleHighlight": "Global Standards",
+              "description": "Our programs and trainers are certified by internationally recognized fitness and wellness organizations, ensuring the highest standards of safety, knowledge and professionalism.",
+              "buttonText": "Our Training Standards",
+              "buttonUrl": "/training-programs",
+              "certifications": [
+                {
+                  "id": "cert-1",
+                  "image": "/certificate/nasm.webp",
+                  "imageAlt": "NASM",
+                  "title": "NASM Certified",
+                  "description": "Globally recognized fitness certification."
+                },
+                {
+                  "id": "cert-2",
+                  "image": "/certificate/ace.webp",
+                  "imageAlt": "ACE",
+                  "title": "ACE Certified",
+                  "description": "Setting the standard in fitness education."
+                },
+                {
+                  "id": "cert-3",
+                  "image": "/certificate/issa.webp",
+                  "imageAlt": "ISSA",
+                  "title": "ISSA Certified",
+                  "description": "Trusted worldwide fitness certification."
+                },
+                {
+                  "id": "cert-4",
+                  "image": "/certificate/nsca.webp",
+                  "imageAlt": "NSCA",
+                  "title": "NSCA Certified",
+                  "description": "Advancing strength and conditioning."
+                }
+              ]
+            }
+          }
+        },
+        "AwardsCommitment": {
+          "variants": {
+            "TransworldAwardsCommitment1": {
+              "subtitle": "OUR COMMITMENT",
+              "titlePart1": "Excellence in ",
+              "titleHighlight": "Every Step",
+              "description": "These certifications and awards inspire us to continue raising the bar and delivering the best fitness experience for our community.",
+              "buttonText": "Join Our Community",
+              "buttonUrl": "/contact",
+              "backgroundImage": "/banner/banner2.webp",
+              "rightHighlightText": "DISCIPLINE BUILDS RESULTS",
+              "features": [
+                {
+                  "id": "feat-1",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe Training",
+                  "description": "Environment"
+                },
+                {
+                  "id": "feat-2",
+                  "icon": "FaUsers",
+                  "title": "Expert",
+                  "description": "Guidance"
+                },
+                {
+                  "id": "feat-3",
+                  "icon": "FaChartBar",
+                  "title": "Real",
+                  "description": "Results"
+                }
+              ]
+            }
+          }
+        },
+        "ImageGallery": {
+          "variants": {
+            "TransworldImageGallery1": {
+              "subtitle": "IMAGE GALLERY",
+              "titlePart1": "Captured at ",
+              "titleHighlight": "Transworld",
+              "description": "A glimpse into our facility, training sessions, events and the amazing community that makes Transworld special.",
+              "loadMoreText": "Load More",
+              "tabs": [
+                {
+                  "id": "all",
+                  "label": "All",
+                  "category": "all"
+                },
+                {
+                  "id": "training",
+                  "label": "Training",
+                  "category": "training"
+                },
+                {
+                  "id": "facilities",
+                  "label": "Facilities",
+                  "category": "facilities"
+                },
+                {
+                  "id": "events",
+                  "label": "Events",
+                  "category": "events"
+                },
+                {
+                  "id": "members",
+                  "label": "Members",
+                  "category": "members"
+                },
+                {
+                  "id": "transformations",
+                  "label": "Transformations",
+                  "category": "transformations"
+                }
+              ],
+              "images": [
+                {
+                  "id": "img1",
+                  "category": "training",
+                  "image": "/gallery/01.jpg",
+                  "imageAlt": "Gallery image 1"
+                },
+                {
+                  "id": "img2",
+                  "category": "facilities",
+                  "image": "/gallery/02.jpg",
+                  "imageAlt": "Gallery image 2"
+                },
+                {
+                  "id": "img3",
+                  "category": "events",
+                  "image": "/gallery/03.jpg",
+                  "imageAlt": "Gallery image 3"
+                },
+                {
+                  "id": "img4",
+                  "category": "members",
+                  "image": "/gallery/04.jpg",
+                  "imageAlt": "Gallery image 4"
+                },
+                {
+                  "id": "img5",
+                  "category": "transformations",
+                  "image": "/gallery/05.jpg",
+                  "imageAlt": "Gallery image 5"
+                },
+                {
+                  "id": "img6",
+                  "category": "training",
+                  "image": "/gallery/06.jpg",
+                  "imageAlt": "Gallery image 6"
+                },
+                {
+                  "id": "img7",
+                  "category": "facilities",
+                  "image": "/gallery/07.jpg",
+                  "imageAlt": "Gallery image 7"
+                },
+                {
+                  "id": "img8",
+                  "category": "events",
+                  "image": "/gallery/08.jpg",
+                  "imageAlt": "Gallery image 8"
+                },
+                {
+                  "id": "img9",
+                  "category": "members",
+                  "image": "/gallery/09.jpg",
+                  "imageAlt": "Gallery image 9"
+                },
+                {
+                  "id": "img10",
+                  "category": "transformations",
+                  "image": "/gallery/10.jpg",
+                  "imageAlt": "Gallery image 10"
+                },
+                {
+                  "id": "img11",
+                  "category": "training",
+                  "image": "/gallery/11.jpg",
+                  "imageAlt": "Gallery image 11"
+                }
+              ]
+            }
+          }
+        },
+        "VideoGallery": {
+          "variants": {
+            "TransworldVideoGallery1": {
+              "subtitle": "VIDEO GALLERY",
+              "titlePart1": "Watch Our ",
+              "titleHighlight": "Story",
+              "description": "Experience the energy, passion and real moments from Transworld through our videos.",
+              "loadMoreText": "Load More Videos",
+              "videos": [
+                {
+                  "id": "vid1",
+                  "thumbnail": "/gallery/01.jpg",
+                  "thumbnailAlt": "Train Harder",
+                  "duration": "02:15",
+                  "title": "Train Harder, Live Better",
+                  "description": "See what makes Transworld different.",
+                  "videoUrl": "https://www.youtube.com/embed/tUykoP30Gb0"
+                },
+                {
+                  "id": "vid2",
+                  "thumbnail": "/gallery/02.jpg",
+                  "thumbnailAlt": "Training Facility",
+                  "duration": "01:48",
+                  "title": "Our Training Facility",
+                  "description": "Take a tour of our world-class gym.",
+                  "videoUrl": "https://www.youtube.com/embed/tUykoP30Gb0"
+                },
+                {
+                  "id": "vid3",
+                  "thumbnail": "/gallery/03.jpg",
+                  "thumbnailAlt": "Member Transformations",
+                  "duration": "03:20",
+                  "title": "Member Transformations",
+                  "description": "Real people. Real results.",
+                  "videoUrl": "https://www.youtube.com/embed/tUykoP30Gb0"
+                },
+                {
+                  "id": "vid4",
+                  "thumbnail": "/gallery/04.jpg",
+                  "thumbnailAlt": "Community Events",
+                  "duration": "01:52",
+                  "title": "Community & Events",
+                  "description": "More than a gym, a community.",
+                  "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                },
+                {
+                  "id": "vid5",
+                  "thumbnail": "/gallery/05.jpg",
+                  "thumbnailAlt": "Gym Tour",
+                  "duration": "02:30",
+                  "title": "Full Gym Tour",
+                  "description": "Explore all our equipment and zones.",
+                  "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+                }
+              ]
+            }
+          }
+        },
+        "FAQ": {
+          "variants": {
+            "TransworldFAQ1": {
+              "subtitle": "FAQS",
+              "titlePart1": "Common Questions,",
+              "titleHighlight": "Clear Answers",
+              "description": "We've answered the most common questions to help you make the right choice. If you don't find what you're looking for, feel free to contact us.",
+              "topStats": [
+                {
+                  "id": "ts1",
+                  "icon": "FaHeadset",
+                  "title": "Quick Answers",
+                  "description": "Find information fast"
+                },
+                {
+                  "id": "ts2",
+                  "icon": "FaShieldAlt",
+                  "title": "Clear & Transparent",
+                  "description": "Straightforward information"
+                },
+                {
+                  "id": "ts3",
+                  "icon": "FaUsers",
+                  "title": "Member Support",
+                  "description": "We're here to help"
+                },
+                {
+                  "id": "ts4",
+                  "icon": "FaFileAlt",
+                  "title": "Your Fitness Journey",
+                  "description": "Guidance at every step"
+                }
+              ],
+              "promo": {
+                "image": "/banner/banner1.webp",
+                "imageAlt": "Gym Trainer",
+                "title": "STILL HAVE",
+                "titleHighlight": "QUESTIONS?",
+                "description": "Our team is here to help you with any queries. Get in touch and we'll be happy to assist you.",
+                "buttonText": "Contact Us",
+                "buttonUrl": "/contact"
+              },
+              "contactBox": {
+                "title": "Need More Help?",
+                "items": [
+                  {
+                    "id": "cb1",
+                    "icon": "FaPhoneAlt",
+                    "title": "Call Us",
+                    "details": [
+                      "+91 98765 43210",
+                      "Mon - Sat, 9AM - 7PM"
+                    ]
+                  },
+                  {
+                    "id": "cb2",
+                    "icon": "FaEnvelope",
+                    "title": "Email Us",
+                    "details": [
+                      "support@transworld.com",
+                      "We reply within 24 hours"
+                    ]
+                  },
+                  {
+                    "id": "cb3",
+                    "icon": "FaMapMarkerAlt",
+                    "title": "Visit Us",
+                    "details": [
+                      "123 Fitness Street,",
+                      "New Delhi, India"
+                    ]
+                  }
+                ]
+              },
+              "faqs": [
+                {
+                  "id": "faq1",
+                  "question": "What types of fitness programs does Transworld offer?",
+                  "answer": "We offer a variety of fitness programs including strength training, weight loss, muscle building, flexibility, functional training and personalized coaching. Our programs are designed for all fitness levels – from beginners to advanced."
+                },
+                {
+                  "id": "faq2",
+                  "question": "Do you offer personal training?",
+                  "answer": "Yes, we have certified personal trainers available to help you achieve your goals faster with customized workout and nutrition plans."
+                },
+                {
+                  "id": "faq3",
+                  "question": "Can beginners join Transworld?",
+                  "answer": "Absolutely! We welcome members of all fitness levels. Our trainers will guide you step-by-step."
+                },
+                {
+                  "id": "faq4",
+                  "question": "What are your membership plans?",
+                  "answer": "We offer monthly, quarterly, and annual membership plans. Please visit our Pricing page for more details."
+                },
+                {
+                  "id": "faq5",
+                  "question": "Are there group classes available?",
+                  "answer": "Yes, we host various group classes like Yoga, Zumba, HIIT, and Spin classes."
+                },
+                {
+                  "id": "faq6",
+                  "question": "Do you provide diet and nutrition guidance?",
+                  "answer": "Yes, our expert nutritionists can provide you with a tailored diet plan to complement your workouts."
+                },
+                {
+                  "id": "faq7",
+                  "question": "What are your gym timings?",
+                  "answer": "We are open Monday to Saturday from 6:00 AM to 10:00 PM. We are closed on Sundays."
+                },
+                {
+                  "id": "faq8",
+                  "question": "Is there a trial session available?",
+                  "answer": "Yes, we offer a free 1-day trial pass for new visitors."
+                },
+                {
+                  "id": "faq9",
+                  "question": "How can I join Transworld?",
+                  "answer": "You can join by visiting our gym in person or signing up online through our website."
+                },
+                {
+                  "id": "faq10",
+                  "question": "Can I pause or cancel my membership?",
+                  "answer": "Yes, memberships can be paused for medical reasons. Cancellations are subject to our terms and conditions."
+                }
+              ]
+            }
+          }
+        },
+        "LegalContent": {
+          "variants": {
+            "TransworldPrivacyPolicy": {
+              "subtitle": "OUR COMMITMENT",
+              "titlePart1": "Your ",
+              "titleHighlight": "Privacy Matters",
+              "description": "At Transworld Logistics Services, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you visit our website, use our services or interact with us.",
+              "sections": [
+                {
+                  "id": "sec1",
+                  "title": "Information We Collect",
+                  "content": "We may collect personal information such as your name, email address, phone number, fitness goals and any other details you provide through our forms, bookings or communications. We also collect non-personal information like browser type, device information and website usage data to improve your experience."
+                },
+                {
+                  "id": "sec2",
+                  "title": "How We Use Your Information",
+                  "content": "The information we collect is used to provide and improve our services, respond to your enquiries, process registrations, personalize your experience and keep you updated about our programs, offers and events."
+                },
+                {
+                  "id": "sec3",
+                  "title": "Information Sharing",
+                  "content": "We do not sell, trade or rent your personal information to third parties. We may share your information with trusted service providers who assist us in operating our website, managing our services or communicating with you, under strict confidentiality agreements."
+                },
+                {
+                  "id": "sec4",
+                  "title": "Data Security",
+                  "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure or destruction."
+                },
+                {
+                  "id": "sec5",
+                  "title": "Cookies",
+                  "content": "Our website uses cookies to enhance your browsing experience, analyze website traffic and understand user behavior. You can choose to disable cookies through your browser settings, but this may affect certain features of the website."
+                },
+                {
+                  "id": "sec6",
+                  "title": "Your Rights",
+                  "content": "You have the right to access, update or request deletion of your personal information. If you have any questions or requests regarding your data, please contact us using the details provided below."
+                },
+                {
+                  "id": "sec7",
+                  "title": "Changes to This Policy",
+                  "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically."
+                },
+                {
+                  "id": "sec8",
+                  "title": "Contact Us",
+                  "content": "If you have any questions, concerns or requests regarding this Privacy Policy, please reach out to us at support@transworld.com or call +91 98765 43210."
+                }
+              ]
+            },
+            "TransworldTermsAndConditions": {
+              "subtitle": "OUR POLICIES",
+              "titlePart1": "Terms & ",
+              "titleHighlight": "Conditions",
+              "description": "Welcome to Transworld Logistics Services. By accessing our website, using our facilities or signing up for any of our services, you agree to comply with and be bound by the following terms and conditions of use.",
+              "sections": [
+                {
+                  "id": "sec1",
+                  "title": "Membership Guidelines",
+                  "content": "All members must carry their ID or access card at all times. Memberships are strictly non-transferable and can only be used by the registered individual."
+                },
+                {
+                  "id": "sec2",
+                  "title": "Gym Etiquette",
+                  "content": "Members are expected to wipe down equipment after use, return weights to their proper racks, and respect the personal space of other members. Proper athletic attire and closed-toe athletic shoes are required at all times."
+                },
+                {
+                  "id": "sec3",
+                  "title": "Health & Safety",
+                  "content": "You acknowledge that participating in physical exercises carries inherent risks. You certify that you are physically capable of engaging in fitness activities and agree that Transworld is not liable for any injuries sustained on the premises."
+                },
+                {
+                  "id": "sec4",
+                  "title": "Payment & Fees",
+                  "content": "Membership fees are payable in advance. Failure to pay dues may result in suspension or termination of your membership. All promotional pricing is subject to specific terms as advertised."
+                }
+              ]
+            },
+            "TransworldRefundPolicy": {
+              "subtitle": "CANCELLATIONS",
+              "titlePart1": "Cancellation & ",
+              "titleHighlight": "Refund Policy",
+              "description": "We understand that plans can change. This policy outlines the terms regarding cancellations, pauses, and refunds for memberships and personal training sessions at Transworld.",
+              "sections": [
+                {
+                  "id": "sec1",
+                  "title": "Membership Cancellations",
+                  "content": "Members may cancel their ongoing membership by providing a 30-day written notice to the management. Annual memberships are generally non-refundable except in cases of relocation or severe medical reasons (proof required)."
+                },
+                {
+                  "id": "sec2",
+                  "title": "Refund Eligibility",
+                  "content": "Refunds for upfront payments are only processed within the first 7 days of purchase, provided the facilities have not been used. Processing fees may apply. After 7 days, all sales are final."
+                },
+                {
+                  "id": "sec3",
+                  "title": "Personal Training Sessions",
+                  "content": "Cancellations for scheduled personal training sessions must be made at least 12 hours in advance. Failure to do so will result in the forfeiture of the session without a refund."
+                },
+                {
+                  "id": "sec4",
+                  "title": "Membership Freezes",
+                  "content": "You may freeze your membership for a minimum of 1 month and a maximum of 3 months per calendar year for travel or medical reasons. A small administrative fee may be charged per freeze request."
+                }
+              ]
+            }
+          }
+        },
+        "NotFoundContent": {
+          "variants": {
+            "Transworld404": {
+              "bgImage": "/other/404_bg.webp",
+              "bgImageAlt": "Gym Background",
+              "zeroImage": "/other/404.webp",
+              "zeroImageAlt": "Running Man",
+              "titlePart1": "Oops! ",
+              "titleHighlight": "Page Not Found",
+              "description": "The page you're looking for doesn't exist or may have been moved. Let's get you back on track.",
+              "buttonText": "Back to Home ->",
+              "buttonUrl": "/",
+              "textLeft": [
+                "Stronger",
+                "Today",
+                "Brighter",
+                "Tomorrow"
+              ],
+              "textRight": [
+                "DISCIPLINE",
+                "BUILDS",
+                "RESULTS"
+              ]
+            }
+          }
+        },
+        "ThankYouContent": {
+          "variants": {
+            "TransworldThankYou1": {
+              "title": "Thank You!",
+              "subtitle": "Request Received",
+              "description": "We have received your details. One of our fitness experts will reach out to you shortly. Stay strong, keep pushing, and let's achieve your goals together!",
+              "buttonText": "Back to Home",
+              "buttonUrl": "/",
+              "backgroundImage": "/banner/image-3.webp"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "TransworldServices1": {
+              "subtitle": "OUR SERVICES",
+              "titlePart1": "Reliable Logistics Solutions",
+              "titleHighlight": "For A Connected World",
+              "description": "From local deliveries to global shipments, we provide end-to-end logistics solutions designed to move your business forward.",
+              "bgImage": "/service/service_bg.jpg",
+              "services": [
+                {
+                  "id": "serv-1",
+                  "number": "01",
+                  "title": "Air Freight",
+                  "description": "Fast and secure air freight solutions for time-sensitive shipments across the globe.",
+                  "icon": "FaPlane",
+                  "image": "/service/1.jpg",
+                  "url": "/services/air-freight",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "serv-2",
+                  "number": "02",
+                  "title": "Sea Freight",
+                  "description": "Cost-effective sea freight services for large and heavy cargo across international routes.",
+                  "icon": "FaShip",
+                  "image": "/service/2.jpg",
+                  "url": "/services/sea-freight",
+                  "iconBgTheme": "olive"
+                },
+                {
+                  "id": "serv-3",
+                  "number": "03",
+                  "title": "Road Transportation",
+                  "description": "Flexible and reliable road transportation for domestic and cross-border deliveries.",
+                  "icon": "FaTruck",
+                  "image": "/service/3.jpg",
+                  "url": "/services/road-transportation",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "serv-4",
+                  "number": "04",
+                  "title": "Other Solutions",
+                  "description": "Customized logistics solutions to meet your unique business requirements.",
+                  "icon": "FaBox",
+                  "image": "/service/4.jpg",
+                  "url": "/services/other-solutions",
+                  "iconBgTheme": "olive"
+                },
+                {
+                  "id": "serv-5",
+                  "number": "05",
+                  "title": "Warehousing",
+                  "description": "Secure and efficient warehousing facilities for short-term and long-term storage needs.",
+                  "icon": "FaWarehouse",
+                  "image": "/service/5.jpg",
+                  "url": "/services/warehousing",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "serv-6",
+                  "number": "06",
+                  "title": "Supply Chain",
+                  "description": "Comprehensive supply chain management to optimize your operations from end to end.",
+                  "icon": "FaProjectDiagram",
+                  "image": "/service/6.jpg",
+                  "url": "/services/supply-chain",
+                  "iconBgTheme": "olive"
+                }
+              ]
+            }
+          }
+        },
+        "Partners": {
+          "variants": {
+            "TransworldPartners1": {
+              "subtitle": "OUR PARTNERS",
+              "titlePart1": "Trusted ",
+              "titleHighlight": "Global Partners",
+              "description": "We collaborate with world's leading logistics and shipping companies to deliver seamless and reliable services across the globe.",
+              "partners": [
+                {
+                  "id": "partner-1",
+                  "image": "/partner/1.webp",
+                  "name": "Maersk"
+                },
+                {
+                  "id": "partner-2",
+                  "image": "/partner/2.webp",
+                  "name": "MSC"
+                },
+                {
+                  "id": "partner-3",
+                  "image": "/partner/3.webp",
+                  "name": "CMA CGM"
+                },
+                {
+                  "id": "partner-4",
+                  "image": "/partner/4.webp",
+                  "name": "DHL"
+                },
+                {
+                  "id": "partner-5",
+                  "image": "/partner/5.webp",
+                  "name": "FedEx"
+                },
+                {
+                  "id": "partner-6",
+                  "image": "/partner/6.webp",
+                  "name": "UPS"
+                },
+                {
+                  "id": "partner-7",
+                  "image": "/partner/7.webp",
+                  "name": "Hapag-Lloyd"
+                },
+                {
+                  "id": "partner-8",
+                  "image": "/partner/8.webp",
+                  "name": "ONE"
+                }
+              ]
+            }
+          }
+        },
+        "CTA": {
+          "variants": {
+            "TransworldCTA1": {
+              "id": "cta-1",
+              "subtitle": "LET'S MOVE FOR A BETTER TOMORROW",
+              "titlePart1": "Reliable Logistics \nfor a ",
+              "titleHighlight": "Brighter Tomorrow",
+              "description": "Partner with us for safe, timely and efficient transportation solutions across the globe.",
+              "buttonText": "Get a Free Quote",
+              "buttonUrl": "/quote",
+              "backgroundImage": "/banner/banner.webp"
+            }
+          }
+        }
+      }
+    }
+  }
+}
