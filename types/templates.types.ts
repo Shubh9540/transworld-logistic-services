@@ -526,6 +526,29 @@ export interface ContactInfo {
   lines: string[];
 }
 
+export interface ContactFullFeature {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  value?: string;
+}
+
+export interface ContactFullData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  features: ContactFullFeature[];
+  mapUrl: string;
+  formSubtitle: string;
+  formTitlePart1: string;
+  formTitleHighlight: string;
+  formDescription: string;
+  formBgImage?: string;
+  bottomFeatures: ContactFullFeature[];
+}
+
 export interface TransworldContactData {
   subtitle: string;
   titlePart1: string;
@@ -734,6 +757,14 @@ export interface FAQItem {
   answer: string;
 }
 
+export interface FAQGridData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  faqs: FAQItem[];
+}
+
 export interface TransworldFAQData {
   topStats: FAQStat[];
   promo: FAQPromo;
@@ -747,6 +778,7 @@ export interface TransworldFAQData {
 
 export interface LegalSection {
   id: string;
+  icon?: string;
   title: string;
   content: string;
 }
@@ -938,6 +970,7 @@ export interface TransworldTemplateData {
         BlogDetail: { variants: Record<string, TransworldBlogDetailData> };
         TrainingDetail: { variants: Record<string, TransworldTrainingDetailData> };
         Contact: { variants: Record<string, TransworldContactData> };
+        ContactFull: { variants: Record<string, ContactFullData> };
         ContactLocation: { variants: Record<string, TransworldContactLocationData> };
         Sitemap: { variants: Record<string, TransworldSitemapData> };
         PricingCards: { variants: Record<string, PricingCardsData> };
@@ -953,8 +986,10 @@ export interface TransworldTemplateData {
         ImageGallery: { variants: Record<string, TransworldImageGalleryData> };
         VideoGallery: { variants: Record<string, TransworldVideoGalleryData> };
         FAQ: { variants: Record<string, TransworldFAQData> };
+        FAQGrid: { variants: Record<string, FAQGridData> };
         LegalContent: { variants: Record<string, TransworldLegalContentData> };
-        NotFoundContent: { variants: Record<string, TransworldNotFoundData> };
+        GetQuoteContent: { variants: Record<string, TransworldGetQuoteData> };
+          NotFoundContent: { variants: Record<string, TransworldNotFoundData> };
         ThankYouContent: { variants: Record<string, TransworldThankYouData> };
         Partners: { variants: Record<string, TransworldPartnersData> };
         [key: string]: any;
@@ -1021,4 +1056,50 @@ export interface ServiceDetailMainContentData {
 export interface TransworldServiceDetailPageContentData {
   sidebar: ServiceDetailSidebarData;
   content: ServiceDetailMainContentData;
+}
+
+export interface QuoteFormConfig {
+  id: string;
+  name: string;
+  label: string;
+  type: string;
+  placeholder: string;
+  required: boolean;
+  icon?: string;
+  options?: string[];
+}
+
+export interface QuoteFeature {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface BottomFeature {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface TransworldGetQuoteData {
+  subtitle: string;
+  title: string;
+  description: string;
+  formFields: QuoteFormConfig[];
+  submitText: string;
+  rightImage: string;
+  rightImageOverlay: string;
+  whyChooseUsTitle: string;
+  features: QuoteFeature[];
+  helpBox: {
+    subtitle: string;
+    titleHighlight: string;
+    phone: string;
+    email: string;
+    address: string;
+    image: string;
+  };
+  bottomFeatures: BottomFeature[];
 }

@@ -9,6 +9,7 @@ import { Footer } from '@/components/common/Footer';
 
 // Page Specific Components
 import { TestimonialsGrid } from '@/components/sections/TestimonialsGrid';
+import { CTASection } from '@/components/sections/CTASection';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +28,7 @@ export default function TestimonialsPage() {
       <Breadcrumb data={commonData?.breadcrumbs?.TestimonialsBreadcrumb} />
       
       <TestimonialsGrid data={sectionData.Testimonials?.variants?.TransworldTestimonials1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
 
       <Footer data={commonData?.Footer} />
     </main>

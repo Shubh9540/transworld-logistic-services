@@ -21,18 +21,18 @@ export const SectionHeading = ({
     <div className={`flex flex-col ${align === 'center' ? 'items-center text-center' : 'items-start text-left'} mb-12 md:mb-16 ${className}`}>
       {subtitle && (
         <div className="flex items-center gap-4 mb-4">
-          {align === 'center' && <div className="w-12 h-[2px] bg-[var(--color-primary)]" />}
-          <span className="text-gray-500 font-bold tracking-[0.2em] text-xs md:text-sm uppercase">
+          {align === 'center' && <div className="w-12 h-[2px] bg-[var(--color-accent)]" />}
+          <span className="text-[var(--color-accent)] font-bold tracking-[0.2em] text-xs md:text-sm uppercase">
             {subtitle}
           </span>
-          <div className="w-12 h-[2px] bg-[var(--color-primary)]" />
+          <div className="w-12 h-[2px] bg-[var(--color-accent)]" />
         </div>
       )}
       {(titlePart1 || titleHighlight) && (
-        <h2 className="text-4xl md:text-5xl lg:text-[56px] font-black text-[#1a1a1a] uppercase leading-[1.1] mb-5">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-[var(--color-primary)] tracking-tight leading-[1.2] mb-5">
           {titlePart1}{' '}
           {titleHighlight && (
-            <span className="text-[var(--color-primary)]">{titleHighlight}</span>
+            <span className="text-[var(--color-accent)]">{titleHighlight}</span>
           )}
         </h2>
       )}

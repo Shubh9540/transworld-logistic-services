@@ -8,8 +8,7 @@ import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { Footer } from '@/components/common/Footer';
 
 // Page Specific Components
-import { ContactTop } from '@/components/sections/ContactTop';
-import { ContactLocation } from '@/components/sections/ContactLocation';
+import { ContactPageContent } from '@/components/sections/ContactPageContent';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,8 +26,7 @@ export default function ContactPage() {
       
       <Breadcrumb data={commonData?.breadcrumbs?.ContactBreadcrumb} />
       
-      <ContactTop data={sectionData.Contact?.variants?.TransworldContact1} />
-      <ContactLocation data={sectionData.ContactLocation?.variants?.TransworldContactLocation1} />
+      <ContactPageContent data={sectionData.ContactFull?.variants?.TransworldContactFull1} />
 
       <Footer data={commonData?.Footer} />
     </main>

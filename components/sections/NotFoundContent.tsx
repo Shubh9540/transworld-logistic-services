@@ -1,77 +1,59 @@
 import React from 'react';
 import Link from 'next/link';
 import { TransworldNotFoundData } from '@/types/templates.types';
+import { FaHome, FaArrowRight } from 'react-icons/fa';
 
 export const NotFoundContent = ({ data }: { data?: TransworldNotFoundData }) => {
   if (!data) return null;
 
   return (
     <section 
-      className="relative min-h-[600px] flex items-center justify-center py-20 overflow-hidden"
+      className="bg-white py-16 lg:py-24 overflow-hidden relative min-h-[600px] flex items-center"
       style={{
-        backgroundImage: `url('${data.bgImage}')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundImage: `url('${data.zeroImage}')`,
+        backgroundSize: 'contain',
+        backgroundPosition: 'right center',
         backgroundRepeat: 'no-repeat'
       }}
     >
-      {/* Removed Light Overlay as per user request */}
-      
-      <div className="relative z-10 container max-w-[1400px] mx-auto px-4 text-center flex flex-col items-center">
+      {/* Fallback overlay in case image doesn't cover well on mobile */}
+      <div className="absolute inset-0 bg-white/60 lg:bg-transparent pointer-events-none"></div>
+
+      <div className="max-w-[1250px] w-full mx-auto px-4 sm:px-6 relative z-10">
         
-        {/* Left Text Decoration */}
-        <div className="hidden lg:block absolute left-4 xl:left-12 top-[35%] -translate-y-1/2 -rotate-12">
-          <div className="text-2xl xl:text-3xl font-medium text-gray-400 leading-snug text-left italic">
-            {data.textLeft.map((line, i) => (
-              <div key={i}>{line}</div>
-            ))}
-            <div className="w-full h-[3px] bg-[#ff4d15] mt-2 opacity-60"></div>
+        {/* Left Content */}
+        <div className="flex flex-col items-start justify-center text-left max-w-2xl">
+          <span className="text-[var(--color-accent)] font-extrabold tracking-[0.3em] text-xl md:text-2xl mb-4">
+            O O P S !
+          </span>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-[var(--color-primary)] leading-tight mb-6 tracking-tight">
+            Page Not Found
+          </h1>
+          <p className="text-gray-500 text-lg md:text-xl mb-10 leading-relaxed max-w-md">
+            The page you are looking for might have been moved, renamed or no longer exists. Let's get you back on track.
+          </p>
+          
+          {/* Buttons */}
+          <div className="flex flex-wrap items-center gap-4 md:gap-6">
+            <Link 
+              href={data.buttonUrl || "/"}
+              className="inline-flex items-center gap-3 bg-[var(--color-accent)] text-white px-8 py-4 font-bold rounded-[30px] hover:bg-[var(--color-primary)] transition-all shadow-md group"
+            >
+              <FaHome className="text-2xl" />
+              <span className="text-lg">Go to Home</span>
+              <FaArrowRight className="text-base font-normal transition-transform group-hover:translate-x-1" />
+            </Link>
+            
+            <Link 
+              href="/contact"
+              className="inline-flex items-center gap-3 bg-white border-[3px] border-[var(--color-primary)] text-[var(--color-primary)] px-8 py-4 font-bold rounded-[30px] hover:bg-[var(--color-primary)] hover:text-white transition-all group shadow-sm"
+            >
+              <span className="text-lg">Contact Us</span>
+              <FaArrowRight className="text-base font-normal transition-transform group-hover:translate-x-1" />
+            </Link>
           </div>
         </div>
 
-        {/* Right Text Decoration */}
-        <div className="hidden lg:block absolute right-4 xl:right-12 top-[35%] -translate-y-1/2 rotate-12">
-          <div className="text-3xl xl:text-4xl font-black text-gray-400 uppercase tracking-tighter leading-[0.85] text-right transform scale-y-110">
-            {data.textRight.map((line, i) => (
-              <div key={i}>{line}</div>
-            ))}
-            <div className="w-full h-[3px] bg-[#ff4d15] mt-3 opacity-60"></div>
-          </div>
-        </div>
-
-        {/* The 404 Visual Block */}
-        <div className="relative flex items-center justify-center mb-6">
-
-          {/* 404 Text */}
-          <div className="flex items-center justify-center text-[150px] md:text-[250px] lg:text-[340px] font-black leading-none text-[#1a1a1a]">
-            <span>4</span>
-            <img 
-              src={data.zeroImage} 
-              alt={data.zeroImageAlt || "0"} 
-              className="h-[140px] md:h-[230px] lg:h-[310px] object-contain -mx-2 md:-mx-6 lg:-mx-10 relative z-10" 
-            />
-            <span>4</span>
-          </div>
-        </div>
-
-        {/* Heading */}
-        <h2 className="text-3xl md:text-5xl font-bold text-[#1a1a1a] mb-4">
-          {data.titlePart1} <span className="text-[#ff4d15]">{data.titleHighlight}</span>
-        </h2>
-        
-        {/* Description */}
-        <p className="text-[#64748b] text-base md:text-lg max-w-2xl mb-8">
-          {data.description}
-        </p>
-        
-        {/* Button */}
-        <Link 
-          href={data.buttonUrl}
-          className="inline-flex items-center justify-center bg-[#ff4d15] text-white px-8 py-4 font-semibold text-lg hover:bg-[#e03a0f] transition-colors"
-        >
-          {data.buttonText}
-        </Link>
-        
       </div>
     </section>
   );

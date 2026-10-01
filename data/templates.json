@@ -265,6 +265,19 @@
           }
         ],
         "bgImage": "/main logo/breadcrumb.jpg"
+      },
+      "GetQuoteBreadcrumb": {
+        "title": "GET A QUOTE",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Get a Quote"
+          }
+        ]
       }
     },
     "Footer": {
@@ -1007,7 +1020,7 @@
               "testimonials": [
                 {
                   "id": "test-1",
-                  "image": "/team/c1.webp",
+                  "image": "/team/1.jpg",
                   "name": "Rohit Sharma",
                   "designation": "Operations Manager, Sharma Exports Pvt. Ltd.",
                   "rating": 5,
@@ -1015,7 +1028,7 @@
                 },
                 {
                   "id": "test-2",
-                  "image": "/team/c2.webp",
+                  "image": "/team/2.jpg",
                   "name": "Priya Mehta",
                   "designation": "Director, Mehta Global Trading",
                   "rating": 5,
@@ -1023,7 +1036,7 @@
                 },
                 {
                   "id": "test-3",
-                  "image": "/team/c3.webp",
+                  "image": "/team/3.jpg",
                   "name": "Amit Verma",
                   "designation": "Purchase Head, Verma Auto Components",
                   "rating": 5,
@@ -1031,7 +1044,7 @@
                 },
                 {
                   "id": "test-4",
-                  "image": "/team/c1.webp",
+                  "image": "/team/4.jpg",
                   "name": "Rohit Sharma",
                   "designation": "Operations Manager, Sharma Exports Pvt. Ltd.",
                   "rating": 5,
@@ -2610,6 +2623,84 @@
             }
           }
         },
+        "ContactFull": {
+          "variants": {
+            "TransworldContactFull1": {
+              "subtitle": "GET IN TOUCH",
+              "titlePart1": "We're Here to",
+              "titleHighlight": "Help",
+              "description": "Have questions about our logistics services? Get in touch with our team. We're always ready to assist you with reliable and efficient solutions.",
+              "features": [
+                {
+                  "id": "cf1",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "description": "Speak with our logistics experts",
+                  "value": "+1 000 000 0000"
+                },
+                {
+                  "id": "cf2",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "description": "Drop us an email anytime",
+                  "value": "info@transworld.com"
+                },
+                {
+                  "id": "cf3",
+                  "icon": "FaClock",
+                  "title": "Working Hours",
+                  "description": "We're available to assist you",
+                  "value": "Monday - Saturday\n8:00 AM - 6:00 PM"
+                },
+                {
+                  "id": "cf4",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Our Location",
+                  "description": "Visit our office",
+                  "value": "123 Logistics Ave, Suite 100\nNew York, NY 10001, USA"
+                }
+              ],
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0606825994123!2d-73.99308168459345!3d40.76063687932641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1615967069355!5m2!1sen!2sus",
+              "formSubtitle": "REQUEST A CALL BACK",
+              "formTitlePart1": "Get A Free",
+              "formTitleHighlight": "Quote",
+              "formDescription": "Fill out the form and our team will get back to you shortly with the best logistics solution for your needs.",
+              "formBgImage": "/service/service_bg.jpg",
+              "bottomFeatures": [
+                {
+                  "id": "bf1",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Our Headquarters",
+                  "description": "123 Logistics Ave, New York, NY"
+                },
+                {
+                  "id": "bf2",
+                  "icon": "FaLocationArrow",
+                  "title": "Get Directions",
+                  "description": "Find us on Google Maps"
+                },
+                {
+                  "id": "bf3",
+                  "icon": "FaHeadset",
+                  "title": "Quick Response",
+                  "description": "Within 24 Hours"
+                },
+                {
+                  "id": "bf4",
+                  "icon": "FaShieldAlt",
+                  "title": "Reliable Support",
+                  "description": "Always Here"
+                },
+                {
+                  "id": "bf5",
+                  "icon": "FaHandshake",
+                  "title": "Trusted Partner",
+                  "description": "For Your Growth"
+                }
+              ]
+            }
+          }
+        },
         "Contact": {
           "variants": {
             "TransworldContact1": {
@@ -3015,6 +3106,83 @@
             }
           }
         },
+        "FAQGrid": {
+          "variants": {
+            "TransworldFAQGrid1": {
+              "subtitle": "COMMON QUERIES",
+              "titlePart1": "Frequently Asked",
+              "titleHighlight": "Questions",
+              "description": "Everything you need to know about our logistics services. Can't find the answer you're looking for?\nFeel free to contact our support team.",
+              "faqs": [
+                {
+                  "id": "fq1",
+                  "question": "What logistics services do you offer?",
+                  "answer": "We offer end-to-end logistics solutions including domestic and international shipping, freight forwarding, warehousing, supply chain management, and last-mile delivery."
+                },
+                {
+                  "id": "fq2",
+                  "question": "How long does delivery take?",
+                  "answer": "Delivery times vary depending on the destination and the type of service selected. Domestic deliveries usually take 1-3 business days, while international shipments can take anywhere from 3 to 15 business days."
+                },
+                {
+                  "id": "fq3",
+                  "question": "Can I track my shipment in real time?",
+                  "answer": "Yes, we provide real-time tracking for all shipments. You can track your cargo using the tracking number provided at the time of booking through our online tracking portal."
+                },
+                {
+                  "id": "fq4",
+                  "question": "Do you handle international shipments?",
+                  "answer": "Absolutely. We specialize in international shipping and handle all customs clearance, documentation, and compliance required to ensure smooth cross-border deliveries."
+                },
+                {
+                  "id": "fq5",
+                  "question": "What payment methods do you accept?",
+                  "answer": "We accept a variety of payment methods including credit/debit cards, bank transfers, and standard corporate invoicing. Please contact our billing department for specific inquiries."
+                },
+                {
+                  "id": "fq6",
+                  "question": "How do I file a claim for lost or damaged goods?",
+                  "answer": "In the rare event of lost or damaged goods, you can file a claim through our customer support portal within 7 days of delivery. Our dedicated claims team will process it promptly."
+                },
+                {
+                  "id": "fq7",
+                  "question": "How can I get a quote for my shipment?",
+                  "answer": "You can easily get a quote by filling out the form on our Free Consultation page or by contacting our sales team directly with your shipment details."
+                },
+                {
+                  "id": "fq8",
+                  "question": "What areas do you service?",
+                  "answer": "We provide logistics services globally. Whether you need local distribution or worldwide freight forwarding, our extensive network covers almost every major destination."
+                },
+                {
+                  "id": "fq9",
+                  "question": "Are there any items restricted for shipping?",
+                  "answer": "Yes, certain items such as hazardous materials, perishable goods without proper packaging, and illegal substances are restricted. Please check our detailed restricted items list."
+                },
+                {
+                  "id": "fq10",
+                  "question": "Do you offer warehousing and storage?",
+                  "answer": "Yes, we offer secure warehousing and storage solutions at strategic locations to help you manage your inventory effectively."
+                },
+                {
+                  "id": "fq11",
+                  "question": "How are shipping costs calculated?",
+                  "answer": "Shipping costs are calculated based on the weight, dimensions, destination, and the specific service level (e.g., standard vs express) chosen for your shipment."
+                },
+                {
+                  "id": "fq12",
+                  "question": "Can I change or cancel my shipment?",
+                  "answer": "You can modify or cancel your shipment up to 24 hours before the scheduled dispatch. Please note that cancellation fees may apply depending on the service selected."
+                },
+                {
+                  "id": "fq13",
+                  "question": "How can I contact customer support?",
+                  "answer": "Our customer support team is available 24/7. You can reach us via phone, email, or live chat directly from our website."
+                }
+              ]
+            }
+          }
+        },
         "FAQ": {
           "variants": {
             "TransworldFAQ1": {
@@ -3152,42 +3320,50 @@
                 {
                   "id": "sec1",
                   "title": "Information We Collect",
-                  "content": "We may collect personal information such as your name, email address, phone number, fitness goals and any other details you provide through our forms, bookings or communications. We also collect non-personal information like browser type, device information and website usage data to improve your experience."
+                  "content": "We may collect personal information such as your name, email address, phone number, fitness goals and any other details you provide through our forms, bookings or communications. We also collect non-personal information like browser type, device information and website usage data to improve your experience.",
+                  "icon": "FaFileAlt"
                 },
                 {
                   "id": "sec2",
                   "title": "How We Use Your Information",
-                  "content": "The information we collect is used to provide and improve our services, respond to your enquiries, process registrations, personalize your experience and keep you updated about our programs, offers and events."
+                  "content": "The information we collect is used to provide and improve our services, respond to your enquiries, process registrations, personalize your experience and keep you updated about our programs, offers and events.",
+                  "icon": "FaDesktop"
                 },
                 {
                   "id": "sec3",
                   "title": "Information Sharing",
-                  "content": "We do not sell, trade or rent your personal information to third parties. We may share your information with trusted service providers who assist us in operating our website, managing our services or communicating with you, under strict confidentiality agreements."
+                  "content": "We do not sell, trade or rent your personal information to third parties. We may share your information with trusted service providers who assist us in operating our website, managing our services or communicating with you, under strict confidentiality agreements.",
+                  "icon": "FaBoxOpen"
                 },
                 {
                   "id": "sec4",
                   "title": "Data Security",
-                  "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure or destruction."
+                  "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure or destruction.",
+                  "icon": "FaShieldAlt"
                 },
                 {
                   "id": "sec5",
                   "title": "Cookies",
-                  "content": "Our website uses cookies to enhance your browsing experience, analyze website traffic and understand user behavior. You can choose to disable cookies through your browser settings, but this may affect certain features of the website."
+                  "content": "Our website uses cookies to enhance your browsing experience, analyze website traffic and understand user behavior. You can choose to disable cookies through your browser settings, but this may affect certain features of the website.",
+                  "icon": "FaUser"
                 },
                 {
                   "id": "sec6",
                   "title": "Your Rights",
-                  "content": "You have the right to access, update or request deletion of your personal information. If you have any questions or requests regarding your data, please contact us using the details provided below."
+                  "content": "You have the right to access, update or request deletion of your personal information. If you have any questions or requests regarding your data, please contact us using the details provided below.",
+                  "icon": "FaLightbulb"
                 },
                 {
                   "id": "sec7",
                   "title": "Changes to This Policy",
-                  "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically."
+                  "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically.",
+                  "icon": "FaLink"
                 },
                 {
                   "id": "sec8",
                   "title": "Contact Us",
-                  "content": "If you have any questions, concerns or requests regarding this Privacy Policy, please reach out to us at support@transworld.com or call +91 98765 43210."
+                  "content": "If you have any questions, concerns or requests regarding this Privacy Policy, please reach out to us at support@transworld.com or call +91 98765 43210.",
+                  "icon": "FaExclamationTriangle"
                 }
               ]
             },
@@ -3200,22 +3376,26 @@
                 {
                   "id": "sec1",
                   "title": "Membership Guidelines",
-                  "content": "All members must carry their ID or access card at all times. Memberships are strictly non-transferable and can only be used by the registered individual."
+                  "content": "All members must carry their ID or access card at all times. Memberships are strictly non-transferable and can only be used by the registered individual.",
+                  "icon": "FaFileAlt"
                 },
                 {
                   "id": "sec2",
                   "title": "Gym Etiquette",
-                  "content": "Members are expected to wipe down equipment after use, return weights to their proper racks, and respect the personal space of other members. Proper athletic attire and closed-toe athletic shoes are required at all times."
+                  "content": "Members are expected to wipe down equipment after use, return weights to their proper racks, and respect the personal space of other members. Proper athletic attire and closed-toe athletic shoes are required at all times.",
+                  "icon": "FaDesktop"
                 },
                 {
                   "id": "sec3",
                   "title": "Health & Safety",
-                  "content": "You acknowledge that participating in physical exercises carries inherent risks. You certify that you are physically capable of engaging in fitness activities and agree that Transworld is not liable for any injuries sustained on the premises."
+                  "content": "You acknowledge that participating in physical exercises carries inherent risks. You certify that you are physically capable of engaging in fitness activities and agree that Transworld is not liable for any injuries sustained on the premises.",
+                  "icon": "FaBoxOpen"
                 },
                 {
                   "id": "sec4",
                   "title": "Payment & Fees",
-                  "content": "Membership fees are payable in advance. Failure to pay dues may result in suspension or termination of your membership. All promotional pricing is subject to specific terms as advertised."
+                  "content": "Membership fees are payable in advance. Failure to pay dues may result in suspension or termination of your membership. All promotional pricing is subject to specific terms as advertised.",
+                  "icon": "FaShieldAlt"
                 }
               ]
             },
@@ -3228,22 +3408,26 @@
                 {
                   "id": "sec1",
                   "title": "Membership Cancellations",
-                  "content": "Members may cancel their ongoing membership by providing a 30-day written notice to the management. Annual memberships are generally non-refundable except in cases of relocation or severe medical reasons (proof required)."
+                  "content": "Members may cancel their ongoing membership by providing a 30-day written notice to the management. Annual memberships are generally non-refundable except in cases of relocation or severe medical reasons (proof required).",
+                  "icon": "FaFileAlt"
                 },
                 {
                   "id": "sec2",
                   "title": "Refund Eligibility",
-                  "content": "Refunds for upfront payments are only processed within the first 7 days of purchase, provided the facilities have not been used. Processing fees may apply. After 7 days, all sales are final."
+                  "content": "Refunds for upfront payments are only processed within the first 7 days of purchase, provided the facilities have not been used. Processing fees may apply. After 7 days, all sales are final.",
+                  "icon": "FaDesktop"
                 },
                 {
                   "id": "sec3",
                   "title": "Personal Training Sessions",
-                  "content": "Cancellations for scheduled personal training sessions must be made at least 12 hours in advance. Failure to do so will result in the forfeiture of the session without a refund."
+                  "content": "Cancellations for scheduled personal training sessions must be made at least 12 hours in advance. Failure to do so will result in the forfeiture of the session without a refund.",
+                  "icon": "FaBoxOpen"
                 },
                 {
                   "id": "sec4",
                   "title": "Membership Freezes",
-                  "content": "You may freeze your membership for a minimum of 1 month and a maximum of 3 months per calendar year for travel or medical reasons. A small administrative fee may be charged per freeze request."
+                  "content": "You may freeze your membership for a minimum of 1 month and a maximum of 3 months per calendar year for travel or medical reasons. A small administrative fee may be charged per freeze request.",
+                  "icon": "FaShieldAlt"
                 }
               ]
             }
@@ -4480,6 +4664,192 @@
                   }
                 ]
               }
+            }
+          }
+        },
+        "GetQuoteContent": {
+          "variants": {
+            "TransworldGetQuote1": {
+              "subtitle": "REQUEST A QUOTE",
+              "title": "Get Your Customized Quote",
+              "description": "Fill out the form below and our logistics experts will get back to you with the best solution and pricing.",
+              "formFields": [
+                {
+                  "id": "qf1",
+                  "name": "fullName",
+                  "label": "Full Name *",
+                  "type": "text",
+                  "placeholder": "Enter your full name",
+                  "required": true,
+                  "icon": "FaUser"
+                },
+                {
+                  "id": "qf2",
+                  "name": "companyName",
+                  "label": "Company Name",
+                  "type": "text",
+                  "placeholder": "Enter company name",
+                  "required": false,
+                  "icon": "FaBuilding"
+                },
+                {
+                  "id": "qf3",
+                  "name": "email",
+                  "label": "Email Address *",
+                  "type": "email",
+                  "placeholder": "Enter your email address",
+                  "required": true,
+                  "icon": "FaEnvelope"
+                },
+                {
+                  "id": "qf4",
+                  "name": "phone",
+                  "label": "Phone Number *",
+                  "type": "tel",
+                  "placeholder": "Enter your phone number",
+                  "required": true,
+                  "icon": "FaPhone"
+                },
+                {
+                  "id": "qf5",
+                  "name": "pickupLocation",
+                  "label": "Pickup Location *",
+                  "type": "text",
+                  "placeholder": "Enter pickup location",
+                  "required": true,
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "qf6",
+                  "name": "deliveryLocation",
+                  "label": "Delivery Location *",
+                  "type": "text",
+                  "placeholder": "Enter delivery location",
+                  "required": true,
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "qf7",
+                  "name": "shipmentType",
+                  "label": "Shipment Type *",
+                  "type": "select",
+                  "placeholder": "Select shipment type",
+                  "required": true,
+                  "icon": "FaBox",
+                  "options": [
+                    "Air Freight",
+                    "Sea Freight",
+                    "Road Transport",
+                    "Rail Freight"
+                  ]
+                },
+                {
+                  "id": "qf8",
+                  "name": "cargoType",
+                  "label": "Cargo Type",
+                  "type": "select",
+                  "placeholder": "Select cargo type",
+                  "required": false,
+                  "icon": "FaBoxes",
+                  "options": [
+                    "General Cargo",
+                    "Hazardous Cargo",
+                    "Perishable Goods",
+                    "Fragile"
+                  ]
+                },
+                {
+                  "id": "qf9",
+                  "name": "weight",
+                  "label": "Weight (Approx.) *",
+                  "type": "text",
+                  "placeholder": "Enter weight (e.g. 500 kg)",
+                  "required": true,
+                  "icon": "FaWeightHanging"
+                },
+                {
+                  "id": "qf10",
+                  "name": "date",
+                  "label": "Preferred Shipping Date",
+                  "type": "date",
+                  "placeholder": "Select date",
+                  "required": false,
+                  "icon": "FaCalendarAlt"
+                },
+                {
+                  "id": "qf11",
+                  "name": "additionalInfo",
+                  "label": "Additional Information",
+                  "type": "textarea",
+                  "placeholder": "Tell us more about your shipment (optional)",
+                  "required": false,
+                  "icon": "FaFileAlt"
+                }
+              ],
+              "submitText": "Submit Quote Request",
+              "rightImage": "/service/service_bg.jpg",
+              "rightImageOverlay": "YOUR CARGO OUR COMMITMENT",
+              "whyChooseUsTitle": "Why Get a Quote from Us?",
+              "features": [
+                {
+                  "id": "wq1",
+                  "title": "Competitive Pricing",
+                  "description": "Best rates for domestic & international shipping.",
+                  "icon": "FaCoins"
+                },
+                {
+                  "id": "wq2",
+                  "title": "Tailored Solutions",
+                  "description": "Customized logistics as per your business needs.",
+                  "icon": "FaCog"
+                },
+                {
+                  "id": "wq3",
+                  "title": "Quick Response",
+                  "description": "Our team will get back to you within 24 hours.",
+                  "icon": "FaClock"
+                },
+                {
+                  "id": "wq4",
+                  "title": "Reliable Support",
+                  "description": "End-to-end assistance from booking to delivery.",
+                  "icon": "FaHeadset"
+                }
+              ],
+              "helpBox": {
+                "subtitle": "Need Immediate Assistance?",
+                "titleHighlight": "We're Here to Help!",
+                "phone": "+91 98765 43210",
+                "email": "info@transworld.com",
+                "address": "123 Logistic Park, Sector 62 Noida, Uttar Pradesh, India",
+                "image": "/team/team1.jpg"
+              },
+              "bottomFeatures": [
+                {
+                  "id": "bf1",
+                  "title": "Global Network",
+                  "description": "Serving across 100+ countries.",
+                  "icon": "FaGlobe"
+                },
+                {
+                  "id": "bf2",
+                  "title": "On-Time Delivery",
+                  "description": "Your cargo, always on time.",
+                  "icon": "FaTruck"
+                },
+                {
+                  "id": "bf3",
+                  "title": "Safe & Secure",
+                  "description": "Complete safety for your goods.",
+                  "icon": "FaShieldAlt"
+                },
+                {
+                  "id": "bf4",
+                  "title": "24/7 Support",
+                  "description": "We are always here for you.",
+                  "icon": "FaHeadset"
+                }
+              ]
             }
           }
         }
