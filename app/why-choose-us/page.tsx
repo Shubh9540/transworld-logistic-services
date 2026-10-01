@@ -5,8 +5,9 @@ import { TopBar } from '@/components/common/TopBar';
 import { Header } from '@/components/common/Header';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection';
-import { ProcessSection } from '@/components/sections/ProcessSection';
+import { Counter } from '@/components/sections/Counter';
 import { Testimonials } from '@/components/sections/Testimonials';
+import { CTASection } from '@/components/sections/CTASection';
 import { Footer } from '@/components/common/Footer';
 
 export const dynamic = 'force-dynamic';
@@ -24,8 +25,9 @@ export default function WhyChooseUsPage() {
       <Header data={sectionData.Header?.variants?.TransworldHeader1} />
       <Breadcrumb data={commonData.breadcrumbs['WhyChooseUsBreadcrumb']} />
       <WhyChooseUsSection data={sectionData.WhyChooseUs?.variants?.TransworldWhyChooseUs1} />
-      <ProcessSection data={sectionData.Process?.variants?.TransworldProcess1} />
+      <Counter data={sectionData.Counter?.variants?.TransworldCounter1} />
       <Testimonials data={sectionData.Testimonials?.variants?.TransworldTestimonials1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
       <Footer data={commonData.Footer} />
     </main>
   );

@@ -5,6 +5,7 @@ import { Header } from '@/components/common/Header';
 import { Footer } from '@/components/common/Footer';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { TeamSection } from '@/components/sections/TeamSection';
+import { CTASection } from '@/components/sections/CTASection';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,6 +25,7 @@ export default function TeamPage() {
       {breadcrumbData && <Breadcrumb data={breadcrumbData} />}
       
       <TeamSection data={sectionData.Team?.variants?.TransworldTeam1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
       
       <Footer data={commonData?.Footer} />
     </main>

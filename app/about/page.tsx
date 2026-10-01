@@ -6,7 +6,8 @@ import { Header } from '@/components/common/Header';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { AboutPageContent } from '@/components/sections/AboutPageContent';
 import { ProcessSection } from '@/components/sections/ProcessSection';
-import { Testimonials } from '@/components/sections/Testimonials';
+import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection';
+import { CTASection } from '@/components/sections/CTASection';
 import { Footer } from '@/components/common/Footer';
 
 export const dynamic = 'force-dynamic';
@@ -25,7 +26,8 @@ export default function AboutPage() {
       <Breadcrumb data={commonData.breadcrumbs['AboutBreadcrumb']} />
       <AboutPageContent data={sectionData.AboutPageContent?.variants?.TransworldAboutPageContent1} />
       <ProcessSection data={sectionData.Process?.variants?.TransworldProcess1} />
-      <Testimonials data={sectionData.Testimonials?.variants?.TransworldTestimonials1} />
+      <WhyChooseUsSection data={sectionData.WhyChooseUs?.variants?.TransworldWhyChooseUs1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
       <Footer data={commonData.Footer} />
     </main>
   );

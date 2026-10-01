@@ -6,7 +6,8 @@ import { Footer } from '@/components/common/Footer';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { MissionSection } from '@/components/sections/MissionSection';
 import { VisionSection } from '@/components/sections/VisionSection';
-import { ProcessSection } from '@/components/sections/ProcessSection';
+import { Testimonials } from '@/components/sections/Testimonials';
+import { CTASection } from '@/components/sections/CTASection';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,7 +28,8 @@ export default function MissionVisionPage() {
       
       <MissionSection data={sectionData.Mission?.variants?.TransworldMission1} />
       <VisionSection data={sectionData.Vision?.variants?.TransworldVision1} />
-      <ProcessSection data={sectionData.Process?.variants?.TransworldProcess1} />
+      <Testimonials data={sectionData.Testimonials?.variants?.TransworldTestimonials1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
       
       <Footer data={commonData?.Footer} />
     </main>

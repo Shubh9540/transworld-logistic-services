@@ -282,17 +282,24 @@ export interface SocialLink {
 }
 
 export interface TeamMemberQuickInfo {
-  position: string;
+  fullName: string;
+  designation: string;
   experience: string;
-  specialization: string;
-  certification: string;
+  department: string;
   location: string;
+  email: string;
+  phone: string;
 }
 
-export interface TeamMemberExpertise {
-  id: string;
-  icon: string;
-  title: string;
+export interface TeamMemberSkill {
+  name: string;
+  percentage: string;
+}
+
+export interface TeamMemberJourney {
+  period: string;
+  role: string;
+  company: string;
   description: string;
 }
 
@@ -301,15 +308,16 @@ export interface TeamMember {
   image: string;
   name: string;
   role: string;
-  shortDescription: string;
+  subtitle: string;
   quote: string;
   biography: string;
-  experience: string;
-  certification: string;
-  specialization: string;
-  trainingStyle: string;
   quickInfo: TeamMemberQuickInfo;
-  expertise: TeamMemberExpertise[];
+  skills: TeamMemberSkill[];
+  areasOfFocus: string[];
+  journey: TeamMemberJourney[];
+  journeyImage: string;
+  journeyBadgeIcon: string;
+  journeyBadgeText: string;
   social: SocialLink[];
 }
 
@@ -917,7 +925,7 @@ export interface TransworldTemplateData {
         Header: { variants: Record<string, HeaderData> };
         Hero: { variants: Record<string, TransworldHeroData> };
         AboutUs: { variants: Record<string, TransworldAboutData> };
-        AboutPageContent: { variants: Record<string, TransworldAboutPageContentData> };
+        AboutPageContent: { variants: Record<string, TransworldAboutData> };
         WhyChooseUs: { variants: Record<string, TransworldWhyChooseUsData> };
         Mission: { variants: Record<string, TransworldMissionData> };
         Vision: { variants: Record<string, TransworldVisionData> };
