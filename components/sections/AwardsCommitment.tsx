@@ -1,97 +1,72 @@
 import React from 'react';
-import Link from 'next/link';
+import Image from 'next/image';
 import { TransworldAwardsCommitmentData } from '@/types/templates.types';
-import { FaArrowRight, FaShieldAlt, FaUsers, FaChartBar } from 'react-icons/fa';
-
-const renderIcon = (iconName: string) => {
-  switch (iconName) {
-    case 'FaShieldAlt': return <FaShieldAlt className="w-5 h-5 text-[#ff4d15]" />;
-    case 'FaUsers': return <FaUsers className="w-5 h-5 text-[#ff4d15]" />;
-    case 'FaChartBar': return <FaChartBar className="w-5 h-5 text-[#ff4d15]" />;
-    default: return null;
-  }
-};
 
 export const AwardsCommitment = ({ data }: { data?: TransworldAwardsCommitmentData }) => {
   if (!data) return null;
 
   return (
-    <section
-      className="py-10 lg:py-14 mb-12 lg:mb-10 bg-[#0f172a] relative overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${data.backgroundImage})` }}
-    >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-[#0f172a]/80"></div>
+    <section className="bg-[#fdfaf6] py-16 lg:py-12 overflow-hidden">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
-      {/* Diagonal Orange Shape */}
-      <div className="hidden lg:block absolute top-0 left-[55%] bottom-0 w-24 bg-[#ff4d15] -skew-x-[20deg] z-0 opacity-90"></div>
-
-      <div className="container mx-auto px-4 max-w-[1500px] relative z-10">
-        <div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
-
-          {/* Left Side */}
-          <div className="w-full lg:w-[45%] xl:w-[40%]">
-            <div className="flex items-center gap-4 mb-3">
-              <div className="w-8 h-[2px] bg-[#ff4d15]"></div>
-              <span className="text-xs font-bold text-white tracking-[0.2em] uppercase">
+          {/* Left Side: Text Content */}
+          <div className="flex flex-col justify-center relative z-10">
+            {/* Subtitle */}
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-10 h-[2px] bg-[var(--color-accent)]" />
+              <span className="text-[var(--color-accent)] font-bold text-sm tracking-[0.2em] uppercase">
                 {data.subtitle}
               </span>
+              <div className="w-10 h-[2px] bg-[var(--color-accent)]" />
             </div>
 
-            <h2 className="text-3xl md:text-4xl lg:text-[40px] font-bold text-white leading-tight mb-4">
-              {data.titlePart1} <span className="text-[#ff4d15]">{data.titleHighlight}</span>
+            {/* Title */}
+            <h2 className="text-5xl lg:text-[64px] font-black leading-[0.9] mb-8 text-[#0f284b] tracking-tight">
+              {data.titlePart1}
+              <br />
+              <span className="text-[var(--color-accent)]">{data.titleHighlight}</span>
             </h2>
 
-            <p className="text-gray-300 text-sm md:text-base mb-6 leading-relaxed max-w-xl">
+            {/* Description */}
+            <p className="text-gray-600 text-lg leading-relaxed max-w-lg">
               {data.description}
             </p>
 
-            <Link
-              href={data.buttonUrl}
-              className="inline-flex items-center gap-2 bg-[#ff4d15] text-white font-semibold px-6 py-3 rounded hover:bg-[#e03a00] transition-colors"
-            >
-              {data.buttonText}
-              <FaArrowRight />
-            </Link>
+            <div className="mt-8 w-10 h-[3px] bg-[var(--color-accent)]" />
           </div>
 
-          {/* Right Side */}
-          <div className="w-full lg:w-[50%] flex flex-col md:flex-row gap-10 md:gap-16 items-center justify-end">
+          {/* Right Side: Image with Overlay */}
+          <div className="relative min-h-[400px] lg:min-h-[550px] w-full z-10">
+            {/* Olive Green Backdrop Shape */}
+            <div className="absolute -bottom-4 -right-4 top-10 left-10 bg-[var(--color-accent)] rounded-2xl z-0" />
 
-            {/* Features List */}
-            <div className="flex flex-col w-full md:w-auto shrink-0">
-              {data.features.map((feature, index) => (
-                <React.Fragment key={feature.id}>
-                  <div className="flex items-center gap-4 py-3">
-                    <div className="w-12 h-12 rounded-full border border-[#ff4d15] flex items-center justify-center flex-shrink-0 bg-[#0f172a]/80">
-                      {renderIcon(feature.icon)}
-                    </div>
-                    <div>
-                      <h4 className="text-gray-200 text-sm leading-snug">
-                        {feature.title} <br />
-                        {feature.description}
-                      </h4>
-                    </div>
-                  </div>
-                  {index !== data.features.length - 1 && (
-                    <div className="w-full h-[1px] bg-white/10"></div>
-                  )}
-                </React.Fragment>
-              ))}
+            {/* Main Image */}
+            <div className="absolute inset-0 rounded-2xl overflow-hidden z-10 shadow-xl">
+              <Image
+                src={data.backgroundImage}
+                alt="Awards Trophy"
+                fill
+                className="object-cover object-left"
+              />
             </div>
 
-            {/* Right Highlight Text */}
-            <div className="text-left shrink-0">
-              <h3 className="text-4xl xl:text-5xl font-bold uppercase leading-[0.95] whitespace-nowrap">
-                <span className="text-white/20 block">{data.rightHighlightText.split(' ')[0]}</span>
-                <span className="text-white/40 block">{data.rightHighlightText.split(' ')[1]}</span>
-                <span className="text-[#ff4d15] block">{data.rightHighlightText.split(' ')[2]}</span>
-              </h3>
+            {/* Dark overlay box on the image */}
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#0f284b]/90 backdrop-blur-sm px-6 py-8 md:px-8 md:py-10 text-white w-[240px] md:w-[280px] z-20">
+              <div className="space-y-2 mb-8 text-sm md:text-base tracking-[0.2em]">
+                <p className="opacity-90">{data.rightHighlightText?.split(' ')?.[0]} {data.rightHighlightText?.split(' ')?.[1]}</p>
+                <p className="opacity-90">{data.rightHighlightText?.split(' ')?.[2]} {data.rightHighlightText?.split(' ')?.[3]}</p>
+                <p className="opacity-90">{data.rightHighlightText?.split(' ')?.[4]}</p>
+                <p className="text-[var(--color-accent)] font-bold">{data.rightHighlightText?.split(' ')?.[5]}</p>
+              </div>
+              <div className="w-12 h-1 bg-[var(--color-accent)]" />
             </div>
-
           </div>
+
         </div>
       </div>
     </section>
   );
 };
+
+

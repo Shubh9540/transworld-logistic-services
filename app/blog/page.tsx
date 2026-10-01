@@ -5,6 +5,7 @@ import { TopBar } from '@/components/common/TopBar';
 import { Header } from '@/components/common/Header';
 import { Breadcrumb } from '@/components/common/Breadcrumb';
 import { BlogGridSection } from '@/components/sections/BlogGridSection';
+import { CTASection } from '@/components/sections/CTASection';
 import { Footer } from '@/components/common/Footer';
 
 export const dynamic = 'force-dynamic';
@@ -22,6 +23,7 @@ export default function BlogPage() {
       <Header data={sectionData.Header?.variants?.TransworldHeader1} />
       <Breadcrumb data={commonData.breadcrumbs['BlogBreadcrumb']} />
       <BlogGridSection data={sectionData.Blog?.variants?.TransworldBlog1} />
+      <CTASection data={sectionData.CTA?.variants?.TransworldCTA1} />
       <Footer data={commonData.Footer} />
     </main>
   );

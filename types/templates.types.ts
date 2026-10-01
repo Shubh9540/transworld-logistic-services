@@ -948,6 +948,8 @@ export interface TransworldTemplateData {
         AwardsMilestones: { variants: Record<string, TransworldAwardsMilestonesData> };
         AwardsCertifications: { variants: Record<string, TransworldAwardsCertificationsData> };
         AwardsCommitment: { variants: Record<string, TransworldAwardsCommitmentData> };
+        ServicesGrid: { variants: Record<string, TransworldServicesData> };
+        ServiceDetailPageContent: { variants: Record<string, TransworldServiceDetailPageContentData> };
         ImageGallery: { variants: Record<string, TransworldImageGalleryData> };
         VideoGallery: { variants: Record<string, TransworldVideoGalleryData> };
         FAQ: { variants: Record<string, TransworldFAQData> };
@@ -959,4 +961,64 @@ export interface TransworldTemplateData {
       };
     };
   };
+}
+
+
+// SERVICE DETAIL PAGE CONTENT SECTION
+export interface ServiceDetailLink {
+  id: string;
+  title: string;
+  url: string;
+}
+
+export interface ServiceDetailHelpBox {
+  subtitle: string;
+  title: string;
+  description: string;
+  phone: string;
+  phoneLabel: string;
+  bgImage: string;
+}
+
+export interface ServiceDetailDownload {
+  id: string;
+  title: string;
+  label: string;
+  fileUrl: string;
+}
+
+export interface ServiceDetailSidebarData {
+  servicesList: ServiceDetailLink[];
+  helpBox: ServiceDetailHelpBox;
+  downloads: ServiceDetailDownload[];
+}
+
+export interface ServiceDetailImageFeature {
+  id: string;
+  label: string;
+}
+
+export interface ServiceDetailBottomCard {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface ServiceDetailMainContentData {
+  mainImage: string;
+  imageOverlayTitlePart1: string;
+  imageOverlayTitlePart2: string;
+  imageOverlayTitlePart3: string;
+  imageFeatures: ServiceDetailImageFeature[];
+  titlePart1: string;
+  titleHighlight: string;
+  paragraphs: string[];
+  bullets: string[];
+  bottomCards: ServiceDetailBottomCard[];
+}
+
+export interface TransworldServiceDetailPageContentData {
+  sidebar: ServiceDetailSidebarData;
+  content: ServiceDetailMainContentData;
 }

@@ -51,7 +51,7 @@
         ]
       },
       "ServicesBreadcrumb": {
-        "title": "Our Programs",
+        "title": "Our Services",
         "bgImage": "/main logo/breadcrumb.jpg",
         "paths": [
           {
@@ -59,7 +59,7 @@
             "url": "/"
           },
           {
-            "label": "Our Programs"
+            "label": "Our Services"
           }
         ]
       },
@@ -277,20 +277,20 @@
           {
             "id": "ci-1",
             "icon": "FaPhoneAlt",
-            "text": "+91 98765 43210",
-            "subText": "Mon - Sat, 9:00 AM - 6:00 PM"
+            "text": "+1 000000000",
+            "subText": "+1 000000000"
           },
           {
             "id": "ci-2",
             "icon": "FaEnvelope",
-            "text": "info@transworld.com",
-            "subText": "We reply within 24 hours"
+            "text": "info@xyz",
+            "subText": "info@xyz"
           },
           {
             "id": "ci-3",
             "icon": "FaMapMarkerAlt",
-            "text": "123 Logistics Park, Sector 62",
-            "subText": "Noida, Uttar Pradesh, India"
+            "text": "123 Dummy Street",
+            "subText": "New York, NY 10001, USA"
           }
         ]
       },
@@ -524,8 +524,8 @@
           "variants": {
             "TransworldTopBar1": {
               "hours": "Mon - Fri: 09:00 - 06:00",
-              "phone": "+91 98765 43210",
-              "address": "Plot No. 12, Sector 63, Noida, India",
+              "phone": "+1 000000000",
+              "address": "123 Dummy Street, New York, NY 10001, USA",
               "socialLinks": [
                 {
                   "id": "tb-fb",
@@ -553,7 +553,7 @@
                   "url": "#"
                 }
               ],
-              "email": "support@transworldlogistics.com"
+              "email": "info@xyz"
             }
           }
         },
@@ -616,18 +616,18 @@
                 },
                 {
                   "id": "nav-programs",
-                  "label": "Programs",
-                  "url": "#",
+                  "label": "Services",
+                  "url": "/services",
                   "subLinks": [
                     {
-                      "id": "nav-programs-training",
-                      "label": "Training Programs",
-                      "url": "/training-programs"
+                      "id": "nav-services-grid",
+                      "label": "Services",
+                      "url": "/services"
                     },
                     {
-                      "id": "nav-programs-details",
-                      "label": "Training Programs Details",
-                      "url": "/training-programs/personal-training"
+                      "id": "nav-services-details",
+                      "label": "Service Details",
+                      "url": "/services/air-freight"
                     }
                   ]
                 },
@@ -654,7 +654,7 @@
                     {
                       "id": "nav-blog-detail",
                       "label": "Blog Detail",
-                      "url": "/blog/10-simple-habits"
+                      "url": "/blog/mastering-last-mile-delivery"
                     }
                   ]
                 },
@@ -801,7 +801,7 @@
               "buttonText": "About More",
               "buttonUrl": "/about",
               "callLabel": "Call Us Any Time:",
-              "callNumber": "+91 98765 43210",
+              "callNumber": "+1 000000000",
               "imagePlane": "/about/about-truck-port.jpg",
               "imageMain": "/about/img.webp"
             }
@@ -869,7 +869,7 @@
               "buttonText": "About More",
               "buttonUrl": "/about",
               "callLabel": "Call Us Any Time:",
-              "callNumber": "+91 98765 43210",
+              "callNumber": "+1 000000000",
               "imagePlane": "/about/about-truck-port.jpg",
               "imageMain": "/about/img.webp"
             }
@@ -1141,6 +1141,57 @@
                   "title": "We Ensures You The Best Quality Services For Your Business",
                   "excerpt": "Discover why top businesses trust us for their supply chain needs.",
                   "url": "/blog/quality-services",
+                  "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-4",
+                  "image": "/blog/3.jpg",
+                  "imageAlt": "Logistics cargo plane",
+                  "category": "Logistics",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Janes Cooper",
+                  "authorImage": "/team/c1.webp",
+                  "comments": "Comment",
+                  "title": "Streamlining Your Supply Chain",
+                  "excerpt": "Learn the key strategies for mastering last mile delivery and improving your logistics efficiency.",
+                  "url": "/blog/streamlining-supply-chain",
+                  "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-5",
+                  "image": "/blog/1.jpg",
+                  "imageAlt": "Cargo loading",
+                  "category": "Transport",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Kevin Cooper",
+                  "authorImage": "/team/c2.webp",
+                  "comments": "Comment",
+                  "title": "Future of Transportation Technology",
+                  "excerpt": "Our latest initiatives to reduce carbon footprint in global transportation.",
+                  "url": "/blog/future-transportation",
+                  "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-6",
+                  "image": "/blog/2.jpg",
+                  "imageAlt": "Truck delivery",
+                  "category": "Agency",
+                  "dateFull": "May 10, 2025",
+                  "date": "10",
+                  "day": "10",
+                  "month": "May",
+                  "author": "Alisa Fox",
+                  "authorImage": "/team/c3.webp",
+                  "comments": "Comment",
+                  "title": "Sustainable Delivery Practices",
+                  "excerpt": "Discover why top businesses trust us for their supply chain needs.",
+                  "url": "/blog/sustainable-delivery",
                   "readMoreText": "Read More"
                 }
               ]
@@ -2572,8 +2623,7 @@
                   "icon": "FaPhoneAlt",
                   "title": "Call Us",
                   "lines": [
-                    "+91 98765 43210",
-                    "Mon - Sat, 9AM - 7PM"
+                    "+1 000000000"
                   ]
                 },
                 {
@@ -2581,8 +2631,7 @@
                   "icon": "FaEnvelope",
                   "title": "Email Us",
                   "lines": [
-                    "support@transworld.com",
-                    "We reply within 24 hours"
+                    "info@xyz"
                   ]
                 },
                 {
@@ -2590,8 +2639,8 @@
                   "icon": "FaMapMarkerAlt",
                   "title": "Visit Us",
                   "lines": [
-                    "123 Fitness Street,",
-                    "New Delhi, India - 110001"
+                    "123 Dummy Street",
+                    "New York, NY 10001, USA"
                   ]
                 },
                 {
@@ -2691,45 +2740,54 @@
         "AwardsMilestones": {
           "variants": {
             "TransworldAwardsMilestones1": {
-              "subtitle": "OUR ACHIEVEMENTS",
-              "titlePart1": "Milestones That ",
-              "titleHighlight": "Motivate Us",
-              "description": "Over the years, Transworld has been honored with prestigious awards for our dedication to fitness, community wellness and client success.",
-              "buttonText": "View Our Journey",
-              "buttonUrl": "/about",
-              "backgroundImage": "/banner/hero_bg_1.jpg",
+              "subtitle": "",
+              "titlePart1": "Our",
+              "titleHighlight": "Awards",
+              "description": "Each award is a testament to the hard work, dedication and trust of our clients and partners. These honors inspire us to keep moving forward.",
+              "buttonText": "",
+              "buttonUrl": "",
               "milestones": [
                 {
-                  "id": "m-1",
-                  "image": "/award/award-1.png",
-                  "imageAlt": "Fitness Excellence Award",
-                  "title": "Fitness Excellence Award",
+                  "id": "m1",
+                  "year": "2024",
+                  "title": "Best Logistics Service Provider",
+                  "description": "Business Excellence Awards",
+                  "image": "/award/a1.webp"
+                },
+                {
+                  "id": "m2",
                   "year": "2023",
-                  "description": "For outstanding contribution to health & fitness."
+                  "title": "Excellence in Supply Chain",
+                  "description": "Logistics Leadership Summit",
+                  "image": "/award/a2.webp"
                 },
                 {
-                  "id": "m-2",
-                  "image": "/award/award-2.png",
-                  "imageAlt": "Best Gym of the Year",
-                  "title": "Best Gym of the Year",
+                  "id": "m3",
                   "year": "2022",
-                  "description": "Recognized for exceptional training programs."
+                  "title": "Customer Satisfaction Award",
+                  "description": "Global Business Awards",
+                  "image": "/award/a3.webp"
                 },
                 {
-                  "id": "m-3",
-                  "image": "/award/award-3.png",
-                  "imageAlt": "Community Health Champion",
-                  "title": "Community Health Champion",
+                  "id": "m4",
                   "year": "2021",
-                  "description": "For promoting a Healthier and stronger community."
+                  "title": "Innovation in Logistics",
+                  "description": "Transport & Supply Chain Awards",
+                  "image": "/award/a4.webp"
                 },
                 {
-                  "id": "m-4",
-                  "image": "/award/award-4.png",
-                  "imageAlt": "Client Satisfaction Award",
-                  "title": "Client Satisfaction Award",
+                  "id": "m5",
                   "year": "2020",
-                  "description": "For excellence in customer experience."
+                  "title": "Sustainability Leadership",
+                  "description": "Green Logistics Initiative",
+                  "image": "/award/a5.webp"
+                },
+                {
+                  "id": "m6",
+                  "year": "2019",
+                  "title": "Team Excellence Award",
+                  "description": "For Outstanding Service",
+                  "image": "/award/a6.webp"
                 }
               ]
             }
@@ -2738,40 +2796,36 @@
         "AwardsCertifications": {
           "variants": {
             "TransworldAwardsCertifications1": {
-              "subtitle": "OUR CERTIFICATIONS",
-              "titlePart1": "Certified by ",
-              "titleHighlight": "Global Standards",
-              "description": "Our programs and trainers are certified by internationally recognized fitness and wellness organizations, ensuring the highest standards of safety, knowledge and professionalism.",
-              "buttonText": "Our Training Standards",
-              "buttonUrl": "/training-programs",
+              "subtitle": "",
+              "titlePart1": "Our",
+              "titleHighlight": "Certifications",
+              "description": "Our certifications validate our processes, ensure compliance and reflect our commitment to global standards.",
+              "buttonText": "View All Certificates",
+              "buttonUrl": "#",
               "certifications": [
                 {
-                  "id": "cert-1",
-                  "image": "/certificate/nasm.webp",
-                  "imageAlt": "NASM",
-                  "title": "NASM Certified",
-                  "description": "Globally recognized fitness certification."
+                  "id": "c1",
+                  "title": "ISO 9001:2015",
+                  "description": "Quality Management System",
+                  "image": "/award/c1.webp"
                 },
                 {
-                  "id": "cert-2",
-                  "image": "/certificate/ace.webp",
-                  "imageAlt": "ACE",
-                  "title": "ACE Certified",
-                  "description": "Setting the standard in fitness education."
+                  "id": "c2",
+                  "title": "ISO 14001:2015",
+                  "description": "Environmental Management",
+                  "image": "/award/c2.webp"
                 },
                 {
-                  "id": "cert-3",
-                  "image": "/certificate/issa.webp",
-                  "imageAlt": "ISSA",
-                  "title": "ISSA Certified",
-                  "description": "Trusted worldwide fitness certification."
+                  "id": "c3",
+                  "title": "ISO 45001:2018",
+                  "description": "Occupational Health & Safety",
+                  "image": "/award/c3.webp"
                 },
                 {
-                  "id": "cert-4",
-                  "image": "/certificate/nsca.webp",
-                  "imageAlt": "NSCA",
-                  "title": "NSCA Certified",
-                  "description": "Advancing strength and conditioning."
+                  "id": "c4",
+                  "title": "IATA Certified",
+                  "description": "Air Freight Operations",
+                  "image": "/award/c4.webp"
                 }
               ]
             }
@@ -2780,34 +2834,15 @@
         "AwardsCommitment": {
           "variants": {
             "TransworldAwardsCommitment1": {
-              "subtitle": "OUR COMMITMENT",
-              "titlePart1": "Excellence in ",
-              "titleHighlight": "Every Step",
-              "description": "These certifications and awards inspire us to continue raising the bar and delivering the best fitness experience for our community.",
-              "buttonText": "Join Our Community",
-              "buttonUrl": "/contact",
-              "backgroundImage": "/banner/banner2.webp",
-              "rightHighlightText": "DISCIPLINE BUILDS RESULTS",
-              "features": [
-                {
-                  "id": "feat-1",
-                  "icon": "FaShieldAlt",
-                  "title": "Safe Training",
-                  "description": "Environment"
-                },
-                {
-                  "id": "feat-2",
-                  "icon": "FaUsers",
-                  "title": "Expert",
-                  "description": "Guidance"
-                },
-                {
-                  "id": "feat-3",
-                  "icon": "FaChartBar",
-                  "title": "Real",
-                  "description": "Results"
-                }
-              ]
+              "subtitle": "AWARDS & CERTIFICATES",
+              "titlePart1": "Celebrating",
+              "titleHighlight": "Excellence",
+              "description": "Our awards and certifications reflect our unwavering commitment to quality, safety, innovation and customer satisfaction in every mile we move. These recognitions inspire us to push boundaries and deliver smarter, more reliable logistics solutions.",
+              "backgroundImage": "/award/award main.webp",
+              "rightHighlightText": "DRIVEN BY TRUST RECOGNIZED FOR EXCELLENCE",
+              "buttonText": "",
+              "buttonUrl": "",
+              "features": []
             }
           }
         },
@@ -3030,8 +3065,7 @@
                     "icon": "FaPhoneAlt",
                     "title": "Call Us",
                     "details": [
-                      "+91 98765 43210",
-                      "Mon - Sat, 9AM - 7PM"
+                      "+1 000000000"
                     ]
                   },
                   {
@@ -3039,8 +3073,7 @@
                     "icon": "FaEnvelope",
                     "title": "Email Us",
                     "details": [
-                      "support@transworld.com",
-                      "We reply within 24 hours"
+                      "info@xyz"
                     ]
                   },
                   {
@@ -3048,8 +3081,7 @@
                     "icon": "FaMapMarkerAlt",
                     "title": "Visit Us",
                     "details": [
-                      "123 Fitness Street,",
-                      "New Delhi, India"
+                      "123 Dummy Street, New York, USA"
                     ]
                   }
                 ]
@@ -3391,6 +3423,1063 @@
               "buttonText": "Get a Free Quote",
               "buttonUrl": "/quote",
               "backgroundImage": "/banner/banner.webp"
+            }
+          }
+        },
+        "ServicesGrid": {
+          "variants": {
+            "TransworldServicesGrid1": {
+              "subtitle": "OUR SERVICES",
+              "titlePart1": "Reliable Logistics Solutions",
+              "titleHighlight": "For A Connected World",
+              "description": "From local deliveries to global shipments, we provide end-to-end logistics solutions designed to move your business forward.",
+              "bgImage": "/home1/home_bg_1.jpg",
+              "services": [
+                {
+                  "id": "s1",
+                  "number": "01",
+                  "title": "Air Freight",
+                  "description": "Fast and secure air freight solutions for time-sensitive shipments across the globe.",
+                  "icon": "FaPlane",
+                  "image": "/service/1.jpg",
+                  "url": "/services/air-freight",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "s2",
+                  "number": "02",
+                  "title": "Sea Freight",
+                  "description": "Cost-effective sea freight services for large and heavy cargo across international routes.",
+                  "icon": "FaShip",
+                  "image": "/service/2.jpg",
+                  "url": "/services/sea-freight",
+                  "iconBgTheme": "olive"
+                },
+                {
+                  "id": "s3",
+                  "number": "03",
+                  "title": "Road Transportation",
+                  "description": "Flexible and reliable road transportation for domestic and cross-border deliveries.",
+                  "icon": "FaTruck",
+                  "image": "/service/3.jpg",
+                  "url": "/services/road-transportation",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "s4",
+                  "number": "04",
+                  "title": "Other Solutions",
+                  "description": "Customized logistics solutions to meet your unique business requirements.",
+                  "icon": "FaBox",
+                  "image": "/service/4.jpg",
+                  "url": "/services/other-solutions",
+                  "iconBgTheme": "olive"
+                },
+                {
+                  "id": "s5",
+                  "number": "05",
+                  "title": "Rail Freight",
+                  "description": "Efficient and sustainable rail freight services for bulk cargo and long-distance shipments.",
+                  "icon": "FaTrain",
+                  "image": "/service/5.jpg",
+                  "url": "/services/rail-freight",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "s6",
+                  "number": "06",
+                  "title": "Project Cargo",
+                  "description": "End-to-end project cargo handling for oversized and special shipments with expertise.",
+                  "icon": "FaCubes",
+                  "image": "/service/6.jpg",
+                  "url": "/services/project-cargo",
+                  "iconBgTheme": "olive"
+                },
+                {
+                  "id": "s7",
+                  "number": "07",
+                  "title": "Warehousing & Storage",
+                  "description": "Secure and scalable warehousing solutions to store your goods with complete peace of mind.",
+                  "icon": "FaWarehouse",
+                  "image": "/service/7.jpg",
+                  "url": "/services/warehousing",
+                  "iconBgTheme": "navy"
+                },
+                {
+                  "id": "s8",
+                  "number": "08",
+                  "title": "Last-Mile Delivery",
+                  "description": "Reliable last-mile delivery solutions to ensure your shipments reach their final destination on time.",
+                  "icon": "FaTruckLoading",
+                  "image": "/service/8.jpg",
+                  "url": "/services/last-mile",
+                  "iconBgTheme": "olive"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetailPageContent": {
+          "variants": {
+            "Transworldair-freight1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/1.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Air",
+                "titleHighlight": "Freight",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient air freight solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldsea-freight1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/2.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Sea",
+                "titleHighlight": "Freight",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient sea freight solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldroad-transportation1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/3.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Road",
+                "titleHighlight": "Transportation",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient road transportation solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldother-solutions1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/4.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Other",
+                "titleHighlight": "Solutions",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient other solutions solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldrail-freight1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/5.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Rail",
+                "titleHighlight": "Freight",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient rail freight solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldproject-cargo1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/6.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Project",
+                "titleHighlight": "Cargo",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient project cargo solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldwarehousing1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/7.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Warehousing",
+                "titleHighlight": "& Storage",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient warehousing & storage solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
+            },
+            "Transworldlast-mile1": {
+              "sidebar": {
+                "servicesList": [
+                  {
+                    "id": "s1",
+                    "title": "Air Freight",
+                    "url": "/services/air-freight"
+                  },
+                  {
+                    "id": "s2",
+                    "title": "Sea Freight",
+                    "url": "/services/sea-freight"
+                  },
+                  {
+                    "id": "s3",
+                    "title": "Road Transportation",
+                    "url": "/services/road-transportation"
+                  },
+                  {
+                    "id": "s4",
+                    "title": "Other Solutions",
+                    "url": "/services/other-solutions"
+                  },
+                  {
+                    "id": "s5",
+                    "title": "Rail Freight",
+                    "url": "/services/rail-freight"
+                  },
+                  {
+                    "id": "s6",
+                    "title": "Project Cargo",
+                    "url": "/services/project-cargo"
+                  },
+                  {
+                    "id": "s7",
+                    "title": "Warehousing & Storage",
+                    "url": "/services/warehousing"
+                  },
+                  {
+                    "id": "s8",
+                    "title": "Last-Mile Delivery",
+                    "url": "/services/last-mile"
+                  }
+                ],
+                "helpBox": {
+                  "subtitle": "Need Assistance?",
+                  "title": "We're Here to Help!",
+                  "description": "Get in touch with our logistics experts for quick support and customized solutions.",
+                  "phone": "+1 000000000",
+                  "phoneLabel": "If You Need Any Help Contact With Us",
+                  "bgImage": "/service/service_bg.jpg"
+                },
+                "downloads": [
+                  {
+                    "id": "d1",
+                    "title": "Service Brochure",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d2",
+                    "title": "Company Profile",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  },
+                  {
+                    "id": "d3",
+                    "title": "Terms & Conditions",
+                    "label": "Download PDF",
+                    "fileUrl": "#"
+                  }
+                ]
+              },
+              "content": {
+                "mainImage": "/service/8.jpg",
+                "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
+                "imageOverlayTitlePart2": "STRONGER",
+                "imageOverlayTitlePart3": "TOGETHER",
+                "imageFeatures": [
+                  {
+                    "id": "if1",
+                    "label": "Worldwide Coverage"
+                  },
+                  {
+                    "id": "if2",
+                    "label": "Safe & Secure Transport"
+                  },
+                  {
+                    "id": "if3",
+                    "label": "On-Time Delivery"
+                  }
+                ],
+                "titlePart1": "Last-Mile",
+                "titleHighlight": "Delivery",
+                "paragraphs": [
+                  "We provide reliable, cost-effective and efficient last-mile delivery solutions to move your goods across borders. With a strong global network and trusted partners, we ensure your cargo reaches its destination safely, on time, and in compliance with international regulations.",
+                  "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                ],
+                "bullets": [
+                  "It is a long established fact that a reader will be distracted by the readable content.",
+                  "Distracted by the readable content of a page when looking at its layout.",
+                  "Content of a page when looking at its layout to the point.",
+                  "Reader will be distracted by the readable content of a page when looking."
+                ],
+                "bottomCards": [
+                  {
+                    "id": "bc1",
+                    "title": "Quality Full Work",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaAward"
+                  },
+                  {
+                    "id": "bc2",
+                    "title": "100% Work Satisfaction",
+                    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "icon": "FaUsers"
+                  }
+                ]
+              }
             }
           }
         }

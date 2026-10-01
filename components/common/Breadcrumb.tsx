@@ -15,7 +15,13 @@ export const Breadcrumb = ({ data }: { data?: BreadcrumbData }) => {
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center gap-4 px-4">
         {/* Page Title */}
-        <h1 className="text-4xl md:text-5xl lg:text-[64px] font-black text-white tracking-wide uppercase">
+        <h1 className={`${
+          data.title.length > 50 
+            ? "text-2xl md:text-3xl lg:text-4xl max-w-4xl" 
+            : data.title.length > 25 
+              ? "text-3xl md:text-4xl lg:text-5xl max-w-4xl" 
+              : "text-4xl md:text-5xl lg:text-[64px]"
+        } font-black text-white tracking-wide uppercase leading-tight md:leading-snug`}>
           {data.title}
         </h1>
 
