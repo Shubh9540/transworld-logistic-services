@@ -372,6 +372,8 @@ export interface TransworldPartnersData {
   titleHighlight: string;
   description: string;
   partners: TransworldPartnerItem[];
+  ctaText?: string;
+  ctaUrl?: string;
 }
 
 // ------------------------------------------------------------

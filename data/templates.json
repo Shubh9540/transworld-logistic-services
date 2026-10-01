@@ -278,6 +278,19 @@
             "label": "Get a Quote"
           }
         ]
+      },
+      "PartnersBreadcrumb": {
+        "title": "OUR PARTNERS",
+        "bgImage": "/main logo/breadcrumb.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Partners"
+          }
+        ]
       }
     },
     "Footer": {
@@ -3547,10 +3560,10 @@
         "Partners": {
           "variants": {
             "TransworldPartners1": {
-              "subtitle": "OUR PARTNERS",
-              "titlePart1": "Trusted ",
-              "titleHighlight": "Global Partners",
-              "description": "We collaborate with world's leading logistics and shipping companies to deliver seamless and reliable services across the globe.",
+              "subtitle": "OUR VALUED PARTNERS",
+              "titlePart1": "Collaborating for a ",
+              "titleHighlight": "Better Tomorrow",
+              "description": "We work with trusted partners across industries and regions to provide reliable, efficient, and innovative logistics solutions.",
               "partners": [
                 {
                   "id": "partner-1",
@@ -3592,7 +3605,9 @@
                   "image": "/partner/8.webp",
                   "name": "ONE"
                 }
-              ]
+              ],
+              "ctaText": "Become a Partner",
+              "ctaUrl": "/contact"
             }
           }
         },
