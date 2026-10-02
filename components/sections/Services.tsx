@@ -4,7 +4,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { FaPlane, FaShip, FaTruck, FaBox, FaWarehouse, FaProjectDiagram, FaArrowRight } from 'react-icons/fa';
+import { FaPlane, FaShip, FaTruck, FaBox, FaWarehouse, FaProjectDiagram, FaCubes, FaArrowRight } from 'react-icons/fa';
 import useEmblaCarousel from 'embla-carousel-react';
 import { TransworldServicesData } from '@/types/templates.types';
 
@@ -16,6 +16,7 @@ const renderIcon = (iconName: string) => {
     case 'FaBox': return <FaBox />;
     case 'FaWarehouse': return <FaWarehouse />;
     case 'FaProjectDiagram': return <FaProjectDiagram />;
+    case 'FaCubes': return <FaCubes />;
     default: return <FaBox />;
   }
 };

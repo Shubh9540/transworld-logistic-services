@@ -368,8 +368,8 @@
             },
             {
               "id": "os-6",
-              "label": "Supply Chain",
-              "url": "/services/supply-chain"
+              "label": "Project Cargo",
+              "url": "/services/project-cargo"
             }
           ]
         }
@@ -3422,11 +3422,11 @@
                 {
                   "id": "serv-6",
                   "number": "06",
-                  "title": "Supply Chain",
-                  "description": "Comprehensive supply chain management to optimize your operations from end to end.",
-                  "icon": "FaProjectDiagram",
+                  "title": "Project Cargo",
+                  "description": "End-to-end project cargo handling for oversized and special shipments with expertise.",
+                  "icon": "FaCubes",
                   "image": "/service/6.jpg",
-                  "url": "/services/supply-chain",
+                  "url": "/services/project-cargo",
                   "iconBgTheme": "olive"
                 }
               ]
