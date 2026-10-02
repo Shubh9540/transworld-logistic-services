@@ -2717,60 +2717,6 @@
             }
           }
         },
-        "ContactLocation": {
-          "variants": {
-            "TransworldContactLocation1": {
-              "subtitle": "OUR LOCATION",
-              "titlePart1": "Find Us ",
-              "titleHighlight": "Here",
-              "description": "Visit our gym and experience a world-class fitness environment with state-of-the-art equipment, expert trainers and a supportive community.",
-              "buttonText": "Get Directions",
-              "buttonUrl": "https://maps.google.com",
-              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114827184429!2d77.20966455!3d28.6289299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xc46188eb6120bdc3!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-              "backgroundImage": "/banner/ban1.jpg"
-            }
-          }
-        },
-        "AwardsCounter": {
-          "variants": {
-            "TransworldAwardsCounter1": {
-              "stats": [
-                {
-                  "id": "stat-1",
-                  "icon": "FaAward",
-                  "value": "25",
-                  "suffix": "+",
-                  "title": "Industry Awards",
-                  "description": "Recognized for excellence"
-                },
-                {
-                  "id": "stat-2",
-                  "icon": "FaUsers",
-                  "value": "10,000",
-                  "suffix": "+",
-                  "title": "Happy Members",
-                  "description": "Trust our expertise"
-                },
-                {
-                  "id": "stat-3",
-                  "icon": "FaShieldAlt",
-                  "value": "100",
-                  "suffix": "%",
-                  "title": "Certified Trainers",
-                  "description": "Globally recognized"
-                },
-                {
-                  "id": "stat-4",
-                  "icon": "FaTrophy",
-                  "value": "5",
-                  "suffix": "+",
-                  "title": "Years of Impact",
-                  "description": "Building healthier lives"
-                }
-              ]
-            }
-          }
-        },
         "AwardsMilestones": {
           "variants": {
             "TransworldAwardsMilestones1": {
