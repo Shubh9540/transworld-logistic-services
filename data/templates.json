@@ -141,32 +141,6 @@
         ],
         "bgImage": "/main logo/breadcrumb.jpg"
       },
-      "GalleryBreadcrumb": {
-        "title": "Our Gallery",
-        "bgImage": "/main logo/breadcrumb.jpg",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Our Gallery"
-          }
-        ]
-      },
-      "PricingBreadcrumb": {
-        "title": "PRICING",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Pricing"
-          }
-        ],
-        "bgImage": "/main logo/breadcrumb.jpg"
-      },
       "TestimonialsBreadcrumb": {
         "title": "TESTIMONIALS",
         "paths": [
@@ -210,19 +184,6 @@
         ],
         "bgImage": "/main logo/breadcrumb.jpg"
       },
-      "TrainingBreadcrumb": {
-        "title": "TRAINING PROGRAMS",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Training Programs"
-          }
-        ],
-        "bgImage": "/main logo/breadcrumb.jpg"
-      },
       "TrainingDetailBreadcrumb": {
         "title": "PROGRAM DETAILS",
         "paths": [
@@ -236,19 +197,6 @@
           },
           {
             "label": "Details"
-          }
-        ],
-        "bgImage": "/main logo/breadcrumb.jpg"
-      },
-      "ConsultationBreadcrumb": {
-        "title": "FREE CONSULTATION",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Free Consultation"
           }
         ],
         "bgImage": "/main logo/breadcrumb.jpg"
@@ -379,8 +327,8 @@
             },
             {
               "id": "ql-7",
-              "label": "Careers",
-              "url": "/careers"
+              "label": "Partners",
+              "url": "/partners"
             },
             {
               "id": "ql-8",
@@ -395,43 +343,33 @@
           "links": [
             {
               "id": "os-1",
-              "label": "Freight Forwarding",
-              "url": "#"
+              "label": "Air Freight",
+              "url": "/services/air-freight"
             },
             {
               "id": "os-2",
-              "label": "Warehousing",
-              "url": "#"
+              "label": "Sea Freight",
+              "url": "/services/sea-freight"
             },
             {
               "id": "os-3",
-              "label": "Supply Chain Solutions",
-              "url": "#"
+              "label": "Road Transportation",
+              "url": "/services/road-transportation"
             },
             {
               "id": "os-4",
-              "label": "Domestic Transportation",
-              "url": "#"
+              "label": "Other Solutions",
+              "url": "/services/other-solutions"
             },
             {
               "id": "os-5",
-              "label": "International Shipping",
-              "url": "#"
+              "label": "Warehousing",
+              "url": "/services/warehousing"
             },
             {
               "id": "os-6",
-              "label": "Customs Clearance",
-              "url": "#"
-            },
-            {
-              "id": "os-7",
-              "label": "Project Logistics",
-              "url": "#"
-            },
-            {
-              "id": "os-8",
-              "label": "Last Mile Delivery",
-              "url": "#"
+              "label": "Supply Chain",
+              "url": "/services/supply-chain"
             }
           ]
         }
@@ -464,7 +402,7 @@
           "label": "Global\nNetwork"
         }
       ],
-      "copyright": "© 2025 TransWorld. All Rights Reserved.",
+      "copyright": "© 2026 TransWorld All Rights Reserved. Powered by Lestow",
       "bottomLinks": [
         {
           "id": "bl-1",
@@ -475,11 +413,6 @@
           "id": "bl-2",
           "label": "Terms & Conditions",
           "url": "/terms-and-conditions"
-        },
-        {
-          "id": "bl-3",
-          "label": "Sitemap",
-          "url": "/sitemap"
         }
       ],
       "bottomRight": {
@@ -614,16 +547,6 @@
                       "url": "/mission-vision"
                     },
                     {
-                      "id": "nav-team",
-                      "label": "Our Team",
-                      "url": "/team"
-                    },
-                    {
-                      "id": "nav-team-detail",
-                      "label": "Team Details",
-                      "url": "/team/rahul-sharma"
-                    },
-                    {
                       "id": "nav-testimonials",
                       "label": "Testimonials",
                       "url": "/testimonials"
@@ -637,6 +560,11 @@
                       "id": "nav-faq",
                       "label": "FAQ",
                       "url": "/faq"
+                    },
+                    {
+                      "id": "nav-partners",
+                      "label": "Partners",
+                      "url": "/partners"
                     }
                   ]
                 },
@@ -658,14 +586,21 @@
                   ]
                 },
                 {
-                  "id": "nav-gallery",
-                  "label": "Our Gallery",
-                  "url": "/gallery"
-                },
-                {
-                  "id": "nav-pricing",
-                  "label": "Pricing",
-                  "url": "/pricing"
+                  "id": "nav-team",
+                  "label": "Team",
+                  "url": "#",
+                  "subLinks": [
+                    {
+                      "id": "subnav-team",
+                      "label": "Team",
+                      "url": "/team"
+                    },
+                    {
+                      "id": "subnav-team-details",
+                      "label": "Team Details",
+                      "url": "/team/usha-patel"
+                    }
+                  ]
                 },
                 {
                   "id": "nav-blogs",
@@ -683,6 +618,11 @@
                       "url": "/blog/mastering-last-mile-delivery"
                     }
                   ]
+                },
+                {
+                  "id": "nav-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
                 },
                 {
                   "id": "nav-legal",
@@ -705,16 +645,6 @@
                       "url": "/refund-policy"
                     },
                     {
-                      "id": "nav-contact",
-                      "label": "Contact Us",
-                      "url": "/contact"
-                    },
-                    {
-                      "id": "nav-free-consultation",
-                      "label": "Free Consultation",
-                      "url": "/free-consultation"
-                    },
-                    {
                       "id": "nav-404",
                       "label": "404 page",
                       "url": "/404-page"
@@ -729,7 +659,7 @@
               ],
               "contactButton": {
                 "text": "Get A Quote",
-                "url": "/contact"
+                "url": "/get-a-quote"
               }
             }
           }
@@ -754,7 +684,7 @@
                   "description": "End-to-end logistics solutions that keep your supply chain moving faster, safer and smarter.",
                   "primaryButton": {
                     "text": "Get A Quote",
-                    "url": "/contact"
+                    "url": "/get-a-quote"
                   },
                   "secondaryButton": {
                     "text": "Our Services",
@@ -1128,7 +1058,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Janes Cooper",
-                  "authorImage": "/team/c1.webp",
+                  "authorImage": "/team/1.jpg",
                   "comments": "Comment",
                   "title": "Mastering Last Mile Delivery Strategies For Success In Your Business",
                   "excerpt": "Learn the key strategies for mastering last mile delivery and improving your logistics efficiency.",
@@ -1145,7 +1075,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Kevin Cooper",
-                  "authorImage": "/team/c2.webp",
+                  "authorImage": "/team/2.jpg",
                   "comments": "Comment",
                   "title": "Logistics Announces Launch Of Greenhouse Gas Effect",
                   "excerpt": "Our latest initiatives to reduce carbon footprint in global transportation.",
@@ -1162,7 +1092,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Alisa Fox",
-                  "authorImage": "/team/c3.webp",
+                  "authorImage": "/team/3.jpg",
                   "comments": "Comment",
                   "title": "We Ensures You The Best Quality Services For Your Business",
                   "excerpt": "Discover why top businesses trust us for their supply chain needs.",
@@ -1179,7 +1109,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Janes Cooper",
-                  "authorImage": "/team/c1.webp",
+                  "authorImage": "/team/1.jpg",
                   "comments": "Comment",
                   "title": "Streamlining Your Supply Chain",
                   "excerpt": "Learn the key strategies for mastering last mile delivery and improving your logistics efficiency.",
@@ -1196,7 +1126,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Kevin Cooper",
-                  "authorImage": "/team/c2.webp",
+                  "authorImage": "/team/2.jpg",
                   "comments": "Comment",
                   "title": "Future of Transportation Technology",
                   "excerpt": "Our latest initiatives to reduce carbon footprint in global transportation.",
@@ -1213,7 +1143,7 @@
                   "day": "10",
                   "month": "May",
                   "author": "Alisa Fox",
-                  "authorImage": "/team/c3.webp",
+                  "authorImage": "/team/3.jpg",
                   "comments": "Comment",
                   "title": "Sustainable Delivery Practices",
                   "excerpt": "Discover why top businesses trust us for their supply chain needs.",
@@ -3620,7 +3550,7 @@
               "titleHighlight": "Brighter Tomorrow",
               "description": "Partner with us for safe, timely and efficient transportation solutions across the globe.",
               "buttonText": "Get a Free Quote",
-              "buttonUrl": "/quote",
+              "buttonUrl": "/get-a-quote",
               "backgroundImage": "/banner/banner.webp"
             }
           }

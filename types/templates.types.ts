@@ -937,8 +937,6 @@ export interface TransworldTemplateData {
       ServicesBreadcrumb?: BreadcrumbData;
       BlogBreadcrumb?: BreadcrumbData;
       ContactBreadcrumb?: BreadcrumbData;
-      GalleryBreadcrumb?: BreadcrumbData;
-      PricingBreadcrumb?: BreadcrumbData;
       TestimonialsBreadcrumb?: BreadcrumbData;
       FAQBreadcrumb?: BreadcrumbData;
       AwardsBreadcrumb?: BreadcrumbData;
