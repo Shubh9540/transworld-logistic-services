@@ -52,7 +52,7 @@ export const HeroSection = ({ data }: { data?: TransworldHeroData }) => {
   ];
 
   return (
-    <section className="relative w-full h-[85vh] min-h-[650px] lg:min-h-[500px] bg-gray-900 overflow-hidden flex items-center">
+    <section className="relative w-full h-[85vh] min-h-[650px] lg:min-h-[500px] bg-gray-900 overflow-hidden flex items-center py-8 lg:py-12">
 
       {/* Background Image */}
       <motion.div

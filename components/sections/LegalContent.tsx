@@ -34,7 +34,7 @@ export const LegalContent = ({ data }: { data?: TransworldLegalContentData }) =>
   if (!data) return null;
 
   return (
-    <section className="bg-white py-16 lg:py-20">
+    <section className="bg-white py-8 lg:py-12">
       <div className="max-w-[1250px] mx-auto px-4 md:px-6">
 
         {/* Header */}

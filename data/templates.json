@@ -257,8 +257,8 @@
           {
             "id": "ci-2",
             "icon": "FaEnvelope",
-            "text": "info@xyz",
-            "subText": "info@xyz"
+            "text": "info@xyz.com",
+            "subText": "info@xyz.com"
           },
           {
             "id": "ci-3",
@@ -512,7 +512,7 @@
                   "url": "#"
                 }
               ],
-              "email": "info@xyz"
+              "email": "info@xyz.com"
             }
           }
         },
@@ -992,6 +992,22 @@
                   "designation": "Operations Manager, Sharma Exports Pvt. Ltd.",
                   "rating": 5,
                   "text": "Excellent service and support! Our shipments always arrive on time, and the team is very professional. Highly recommended for any business looking for a reliable logistics partner."
+                },
+                {
+                  "id": "test-5",
+                  "image": "/team/5.jpg",
+                  "name": "Sunita Kapoor",
+                  "designation": "CEO, Kapoor Pharma Logistics",
+                  "rating": 5,
+                  "text": "We have been working with this team for over two years. Their freight forwarding services are second to none. Every shipment is handled with utmost care and professionalism."
+                },
+                {
+                  "id": "test-6",
+                  "image": "/team/6.jpg",
+                  "name": "Rajesh Patel",
+                  "designation": "Supply Chain Manager, Patel Textiles Ltd.",
+                  "rating": 5,
+                  "text": "Outstanding logistics support! From customs clearance to last-mile delivery, they manage everything seamlessly. Our supply chain has never been more efficient."
                 }
               ]
             }
@@ -1149,6 +1165,29 @@
                   "excerpt": "Discover why top businesses trust us for their supply chain needs.",
                   "url": "/blog/sustainable-delivery",
                   "readMoreText": "Read More"
+                },
+                {
+                  "id": "blog-7",
+                  "image": "/blog/4.jpg",
+                  "imageAlt": "Global supply chain network",
+                  "category": "Supply Chain",
+                  "dateFull": "June 15, 2025",
+                  "date": "15",
+                  "day": "15",
+                  "month": "June",
+                  "author": "Janes Cooper",
+                  "authorImage": "/team/1.jpg",
+                  "comments": "Comment",
+                  "title": "Smart Warehousing Solutions For Modern Businesses",
+                  "excerpt": "Explore how smart warehousing technology is transforming the logistics industry.",
+                  "url": "/blog/smart-warehousing",
+                  "readMoreText": "Read More",
+                  "tags": [
+                    "Warehousing",
+                    "Technology",
+                    "Logistics"
+                  ],
+                  "content": "Smart warehousing solutions are revolutionizing how businesses manage inventory."
                 }
               ]
             }
@@ -2586,7 +2625,7 @@
                   "icon": "FaEnvelope",
                   "title": "Email Us",
                   "description": "Drop us an email anytime",
-                  "value": "info@transworld.com"
+                  "value": "info@xyz.com"
                 },
                 {
                   "id": "cf3",
@@ -2665,7 +2704,7 @@
                   "icon": "FaEnvelope",
                   "title": "Email Us",
                   "lines": [
-                    "info@xyz"
+                    "info@xyz.com"
                   ]
                 },
                 {
@@ -2818,7 +2857,7 @@
               "titlePart1": "Celebrating",
               "titleHighlight": "Excellence",
               "description": "Our awards and certifications reflect our unwavering commitment to quality, safety, innovation and customer satisfaction in every mile we move. These recognitions inspire us to push boundaries and deliver smarter, more reliable logistics solutions.",
-              "backgroundImage": "/award/award main.webp",
+              "backgroundImage": "/award/awrdd.png",
               "rightHighlightText": "DRIVEN BY TRUST RECOGNIZED FOR EXCELLENCE",
               "buttonText": "",
               "buttonUrl": "",
@@ -3130,7 +3169,7 @@
                     "icon": "FaEnvelope",
                     "title": "Email Us",
                     "details": [
-                      "info@xyz"
+                      "info@xyz.com"
                     ]
                   },
                   {
@@ -3375,7 +3414,7 @@
                   "title": "Air Freight",
                   "description": "Fast and secure air freight solutions for time-sensitive shipments across the globe.",
                   "icon": "FaPlane",
-                  "image": "/service/1.jpg",
+                  "image": "/service/1-new.jpg",
                   "url": "/services/air-freight",
                   "iconBgTheme": "navy"
                 },
@@ -3385,7 +3424,7 @@
                   "title": "Sea Freight",
                   "description": "Cost-effective sea freight services for large and heavy cargo across international routes.",
                   "icon": "FaShip",
-                  "image": "/service/2.jpg",
+                  "image": "/service/2-new.jpg",
                   "url": "/services/sea-freight",
                   "iconBgTheme": "olive"
                 },
@@ -3395,7 +3434,7 @@
                   "title": "Road Transportation",
                   "description": "Flexible and reliable road transportation for domestic and cross-border deliveries.",
                   "icon": "FaTruck",
-                  "image": "/service/3.jpg",
+                  "image": "/service/3-new.jpg",
                   "url": "/services/road-transportation",
                   "iconBgTheme": "navy"
                 },
@@ -3405,7 +3444,7 @@
                   "title": "Other Solutions",
                   "description": "Customized logistics solutions to meet your unique business requirements.",
                   "icon": "FaBox",
-                  "image": "/service/4.jpg",
+                  "image": "/service/4-new.jpg",
                   "url": "/services/other-solutions",
                   "iconBgTheme": "olive"
                 },
@@ -3415,7 +3454,7 @@
                   "title": "Warehousing",
                   "description": "Secure and efficient warehousing facilities for short-term and long-term storage needs.",
                   "icon": "FaWarehouse",
-                  "image": "/service/5.jpg",
+                  "image": "/service/5-new.jpg",
                   "url": "/services/warehousing",
                   "iconBgTheme": "navy"
                 },
@@ -3425,7 +3464,7 @@
                   "title": "Project Cargo",
                   "description": "End-to-end project cargo handling for oversized and special shipments with expertise.",
                   "icon": "FaCubes",
-                  "image": "/service/6.jpg",
+                  "image": "/service/6-new.jpg",
                   "url": "/services/project-cargo",
                   "iconBgTheme": "olive"
                 }
@@ -3516,7 +3555,7 @@
                   "title": "Air Freight",
                   "description": "Fast and secure air freight solutions for time-sensitive shipments across the globe.",
                   "icon": "FaPlane",
-                  "image": "/service/1.jpg",
+                  "image": "/service/1-new.jpg",
                   "url": "/services/air-freight",
                   "iconBgTheme": "navy"
                 },
@@ -3526,7 +3565,7 @@
                   "title": "Sea Freight",
                   "description": "Cost-effective sea freight services for large and heavy cargo across international routes.",
                   "icon": "FaShip",
-                  "image": "/service/2.jpg",
+                  "image": "/service/2-new.jpg",
                   "url": "/services/sea-freight",
                   "iconBgTheme": "olive"
                 },
@@ -3536,7 +3575,7 @@
                   "title": "Road Transportation",
                   "description": "Flexible and reliable road transportation for domestic and cross-border deliveries.",
                   "icon": "FaTruck",
-                  "image": "/service/3.jpg",
+                  "image": "/service/3-new.jpg",
                   "url": "/services/road-transportation",
                   "iconBgTheme": "navy"
                 },
@@ -3546,7 +3585,7 @@
                   "title": "Other Solutions",
                   "description": "Customized logistics solutions to meet your unique business requirements.",
                   "icon": "FaBox",
-                  "image": "/service/4.jpg",
+                  "image": "/service/4-new.jpg",
                   "url": "/services/other-solutions",
                   "iconBgTheme": "olive"
                 },
@@ -3556,7 +3595,7 @@
                   "title": "Rail Freight",
                   "description": "Efficient and sustainable rail freight services for bulk cargo and long-distance shipments.",
                   "icon": "FaTrain",
-                  "image": "/service/5.jpg",
+                  "image": "/service/5-new.jpg",
                   "url": "/services/rail-freight",
                   "iconBgTheme": "navy"
                 },
@@ -3566,7 +3605,7 @@
                   "title": "Project Cargo",
                   "description": "End-to-end project cargo handling for oversized and special shipments with expertise.",
                   "icon": "FaCubes",
-                  "image": "/service/6.jpg",
+                  "image": "/service/6-new.jpg",
                   "url": "/services/project-cargo",
                   "iconBgTheme": "olive"
                 },
@@ -3576,7 +3615,7 @@
                   "title": "Warehousing & Storage",
                   "description": "Secure and scalable warehousing solutions to store your goods with complete peace of mind.",
                   "icon": "FaWarehouse",
-                  "image": "/service/7.jpg",
+                  "image": "/service/6-new.jpg",
                   "url": "/services/warehousing",
                   "iconBgTheme": "navy"
                 },
@@ -3586,7 +3625,7 @@
                   "title": "Last-Mile Delivery",
                   "description": "Reliable last-mile delivery solutions to ensure your shipments reach their final destination on time.",
                   "icon": "FaTruckLoading",
-                  "image": "/service/8.jpg",
+                  "image": "/service/2-new.jpg",
                   "url": "/services/last-mile",
                   "iconBgTheme": "olive"
                 }
@@ -3653,24 +3692,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/1.jpg",
+                "mainImage": "/service/1-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -3773,24 +3812,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/2.jpg",
+                "mainImage": "/service/2-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -3893,24 +3932,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/3.jpg",
+                "mainImage": "/service/3-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4013,24 +4052,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/4.jpg",
+                "mainImage": "/service/4-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4133,24 +4172,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/5.jpg",
+                "mainImage": "/service/5-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4253,24 +4292,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/6.jpg",
+                "mainImage": "/service/6-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4373,24 +4412,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/7.jpg",
+                "mainImage": "/service/6-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4493,24 +4532,24 @@
                     "id": "d1",
                     "title": "Service Brochure",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-brochure.pdf"
                   },
                   {
                     "id": "d2",
                     "title": "Company Profile",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-company-profile.pdf"
                   },
                   {
                     "id": "d3",
                     "title": "Terms & Conditions",
                     "label": "Download PDF",
-                    "fileUrl": "#"
+                    "fileUrl": "/dummy-terms.pdf"
                   }
                 ]
               },
               "content": {
-                "mainImage": "/service/8.jpg",
+                "mainImage": "/service/2-new.jpg",
                 "imageOverlayTitlePart1": "GLOBAL LOGISTICS",
                 "imageOverlayTitlePart2": "STRONGER",
                 "imageOverlayTitlePart3": "TOGETHER",
@@ -4710,10 +4749,10 @@
               "helpBox": {
                 "subtitle": "Need Immediate Assistance?",
                 "titleHighlight": "We're Here to Help!",
-                "phone": "+91 98765 43210",
-                "email": "info@transworld.com",
-                "address": "123 Logistic Park, Sector 62 Noida, Uttar Pradesh, India",
-                "image": "/team/team1.jpg"
+                "phone": "+1 000000000",
+                "email": "info@xyz.com",
+                "address": "123 Dummy Street, New York, NY 10001, USA",
+                "image": "/team/1.jpg"
               },
               "bottomFeatures": [
                 {

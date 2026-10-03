@@ -22,7 +22,7 @@ export const ServicesGridSection = ({ data }: { data?: TransworldServicesData })
   if (!data) return null;
 
   return (
-    <section className="bg-white py-16 lg:py-12 relative z-10">
+    <section className="bg-white relative z-10 py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12">
 
         {/* Top Header */}
@@ -47,7 +47,7 @@ export const ServicesGridSection = ({ data }: { data?: TransworldServicesData })
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
           {data.services.map((service) => (
             <div key={service.id} className="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden flex flex-col group hover:shadow-lg transition-shadow">
 

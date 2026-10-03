@@ -46,7 +46,7 @@ export const Testimonials = ({ data }: { data?: TransworldTestimonialsData }) =>
   }, [emblaApi]);
 
   return (
-    <section className="py-16 lg:py-12 bg-[#fafafa] relative overflow-hidden">
+    <section className="bg-[#fafafa] relative overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
 
         {/* Header */}

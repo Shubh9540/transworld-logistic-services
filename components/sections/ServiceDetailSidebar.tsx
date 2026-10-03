@@ -5,14 +5,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ServiceDetailSidebarData } from '@/types/templates.types';
-import { FaPhoneAlt, FaFilePdf, FaArrowRight, FaGlobe } from 'react-icons/fa';
+import { FaPhoneAlt, FaFilePdf, FaArrowRight, FaGlobe, FaDownload } from 'react-icons/fa';
 
 export const ServiceDetailSidebar = ({ data }: { data?: ServiceDetailSidebarData }) => {
   const pathname = usePathname();
   if (!data) return null;
 
   return (
-    <div className="flex flex-col gap-8 w-full xl:w-[350px] shrink-0 sticky top-32 h-fit">
+    <div className="flex flex-col gap-8 w-full xl:w-[350px] shrink-0 sticky top-6 h-fit">
       
       {/* Services List Box */}
       <div className="bg-[#0f284b] rounded-xl overflow-hidden shadow-lg">
@@ -43,21 +43,21 @@ export const ServiceDetailSidebar = ({ data }: { data?: ServiceDetailSidebarData
       </div>
 
       {/* Help Box */}
-      <div className="relative rounded-xl overflow-hidden shadow-lg bg-[#051024] flex flex-col h-[480px]">
+      <div className="relative rounded-xl overflow-hidden shadow-lg bg-[#051024] flex flex-col h-[480px] mt-6">
         {/* Top Section with Image and Text */}
         <div className="relative flex-1 p-6 z-10">
-          <div className="absolute top-0 right-0 w-[60%] h-full z-0">
+          <div className="absolute top-0 left-0 w-full h-full z-0">
             <Image
               src={data.helpBox.bgImage || '/service/service_bg.jpg'}
               alt="Help Background"
               fill
-              className="object-cover object-right"
+              className="object-cover object-center"
             />
-            {/* Gradient to fade image into dark blue on the left */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#051024] via-[#051024]/80 to-transparent"></div>
+            {/* Gradient to fade image into dark blue on the left for text visibility */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#051024]/95 via-[#051024]/70 to-[#051024]/10"></div>
           </div>
           
-          <div className="relative z-10 w-[70%] pt-2">
+          <div className="relative z-10 w-[80%] pt-2">
             <span className="text-[var(--color-accent)] font-bold text-xs uppercase tracking-wider mb-2 block">{data.helpBox.subtitle}</span>
             <h3 className="text-white text-3xl font-bold leading-tight mb-4">{data.helpBox.title}</h3>
             <p className="text-gray-300 text-xs leading-relaxed">{data.helpBox.description}</p>
@@ -90,8 +90,36 @@ export const ServiceDetailSidebar = ({ data }: { data?: ServiceDetailSidebarData
         </div>
       </div>
 
-      {/* Download Box removed as per user request */}
-
+      {/* Download Box */}
+      {data.downloads && data.downloads.length > 0 && (
+        <div className="bg-[#f9faf6] rounded-xl p-6 lg:p-8 shadow-sm">
+          <h3 className="text-[#051024] text-xl font-black mb-6">Download</h3>
+          <div className="flex flex-col">
+            {data.downloads.map((item, index) => (
+              <div 
+                key={item.id} 
+                className={`flex items-center gap-4 py-4 ${index !== data.downloads.length - 1 ? 'border-b border-gray-200' : ''}`}
+              >
+                <div className="text-[#051024] shrink-0">
+                  <FaFilePdf size={28} />
+                </div>
+                <div className="flex-1">
+                  <h4 className="text-[#051024] font-bold text-[15px]">{item.title}</h4>
+                  <span className="text-gray-400 text-sm font-medium">{item.label}</span>
+                </div>
+                <a 
+                  href={item.fileUrl} 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="shrink-0 w-10 h-10 rounded bg-[var(--color-accent)] text-white flex items-center justify-center hover:bg-[#051024] transition-colors shadow-sm"
+                >
+                  <FaDownload />
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

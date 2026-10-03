@@ -76,11 +76,11 @@ export const Counter = ({ data }: { data?: TransworldCounterData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-12 bg-gray-50/50">
+    <section className="bg-gray-50/50 py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16">
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-6 sm:gap-x-8 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-16 gap-x-6 sm:gap-x-8 mt-12">
           {data.stats.map((stat, index) => {
             const isEven = index % 2 === 0;
             const iconBg = isEven ? 'bg-[var(--color-primary)]' : 'bg-[var(--color-accent)]';

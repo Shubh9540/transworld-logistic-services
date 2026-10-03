@@ -32,7 +32,7 @@ export const ContactPageContent = ({ data }: { data?: ContactFullData }) => {
   if (!data) return null;
 
   return (
-    <section className="bg-[#fdfaf6] py-16 lg:py-12">
+    <section className="bg-[#fdfaf6] py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16">
 
         {/* Top Heading */}
@@ -44,7 +44,7 @@ export const ContactPageContent = ({ data }: { data?: ContactFullData }) => {
         />
 
         {/* 4 Info Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
           {data.features.map((feature) => (
             <div key={feature.id} className="bg-white rounded-xl p-5 flex flex-col items-center text-center shadow-sm border border-gray-100 transition-transform duration-300 hover:-translate-y-2">
               <div className="w-14 h-14 bg-[var(--color-primary)] text-white rounded-full flex items-center justify-center text-xl mb-4 shadow-md">
@@ -166,9 +166,9 @@ export const ContactPageContent = ({ data }: { data?: ContactFullData }) => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row items-center gap-6 mt-4">
-                  <button type="button" className="group flex items-center justify-center gap-3 bg-[var(--color-accent)] text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300 w-full sm:w-auto">
-                    <span>Send A Message</span>
-                    <div className="bg-white text-[var(--color-primary)] rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-[var(--color-primary)] group-hover:text-white transition-colors">
+                  <button type="button" className="group flex items-center justify-center gap-3 bg-[var(--color-accent)] text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-[var(--color-primary)] transition-all duration-300 w-full sm:w-auto whitespace-nowrap">
+                    <span className="whitespace-nowrap">Send A Message</span>
+                    <div className="bg-white text-[var(--color-primary)] rounded-full w-6 h-6 flex items-center justify-center group-hover:bg-[var(--color-primary)] group-hover:text-white transition-colors shrink-0">
                       <FaArrowRight className="text-xs" />
                     </div>
                   </button>

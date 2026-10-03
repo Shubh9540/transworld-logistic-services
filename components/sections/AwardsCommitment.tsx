@@ -6,9 +6,9 @@ export const AwardsCommitment = ({ data }: { data?: TransworldAwardsCommitmentDa
   if (!data) return null;
 
   return (
-    <section className="bg-[#fdfaf6] py-16 lg:py-12 overflow-hidden">
+    <section className="bg-[#fdfaf6] overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* Left Side: Text Content */}
           <div className="flex flex-col justify-center relative z-10">

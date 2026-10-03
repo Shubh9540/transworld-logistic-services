@@ -7,7 +7,7 @@ export const ThankYouContent = ({ data }: { data?: TransworldThankYouData }) => 
 
   return (
     <section 
-      className="relative min-h-[500px] flex items-center justify-center py-20 px-4"
+      className="relative min-h-[500px] flex items-center justify-center px-4 py-8 lg:py-12"
       style={{
         backgroundImage: data.backgroundImage ? `url('${data.backgroundImage}')` : 'none',
         backgroundSize: 'cover',

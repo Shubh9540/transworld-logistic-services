@@ -7,9 +7,9 @@ export const VisionSection = ({ data }: { data?: TransworldVisionData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative bg-[#fafafa] py-16 lg:py-12 overflow-hidden">
+    <section className="relative bg-[#fafafa] overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
 
           {/* LEFT: Content */}
           <div className="relative flex flex-col pr-0 lg:pr-6 order-2 lg:order-1 mt-16 lg:mt-0">

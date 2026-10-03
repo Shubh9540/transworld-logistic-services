@@ -44,7 +44,7 @@ export const WhyChooseUsSection = ({ data }: { data?: TransworldWhyChooseUsData 
   if (!data) return null;
 
   return (
-    <section className="relative py-16 lg:py-12 bg-[#fbfcf8] overflow-hidden">
+    <section className="relative bg-[#fbfcf8] overflow-hidden py-8 lg:py-12">
       {/* Background Map Faint */}
       <div
         className="absolute inset-0 bg-no-repeat bg-center opacity-40 pointer-events-none"

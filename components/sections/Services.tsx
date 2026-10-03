@@ -70,7 +70,7 @@ export const Services = ({ data }: { data?: TransworldServicesData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative py-12 lg:py-12 bg-[#f9faf6] overflow-hidden">
+    <section className="relative bg-[#f9faf6] overflow-hidden py-8 lg:py-12">
       {/* Background Map Image */}
       <div
         className="absolute inset-0 bg-no-repeat bg-center opacity-30 pointer-events-none"

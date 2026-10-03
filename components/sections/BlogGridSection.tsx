@@ -15,7 +15,7 @@ export const BlogGridSection = ({ data }: { data?: TransworldBlogData }) => {
   const remainingBlogs = data.blogs.slice(3);
 
   return (
-    <section className="relative bg-[#fafafa] py-16 lg:py-12 overflow-hidden">
+    <section className="relative bg-[#fafafa] overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
 
         {/* Header */}
@@ -41,7 +41,7 @@ export const BlogGridSection = ({ data }: { data?: TransworldBlogData }) => {
         </div>
 
         {/* Blog Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr] gap-6 lg:gap-8">
           
           {/* Main Large Post */}
           {mainPost && (
@@ -193,7 +193,7 @@ export const BlogGridSection = ({ data }: { data?: TransworldBlogData }) => {
 
         {/* Following Rows: 2 Col Grid of Small Cards */}
         {remainingBlogs.length > 0 && (
-          <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-6 lg:gap-8 mt-6 lg:mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr] gap-6 lg:gap-8 mt-6 lg:mt-8">
             {remainingBlogs.map((post) => (
               <div 
                 key={post.id} 

@@ -7,7 +7,7 @@ export const PartnersPageContent = ({ data }: { data?: TransworldPartnersData })
   if (!data) return null;
 
   return (
-    <section className="bg-white py-12 lg:py-16">
+    <section className="bg-white py-8 lg:py-12">
       <div className="max-w-[1250px] mx-auto px-4 sm:px-6">
 
         {/* Header */}

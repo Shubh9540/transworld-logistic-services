@@ -23,27 +23,29 @@ export const TeamDetailContent = ({ data }: { data?: TeamMember }) => {
   };
 
   return (
-    <section className="bg-white py-16 lg:py-12 relative">
+    <section className="bg-white relative py-8 lg:py-12">
       {/* Background Pattern */}
       <div className="absolute top-0 left-0 w-full h-[600px] bg-[url('/about/world-map.jpg')] bg-no-repeat bg-cover bg-center opacity-5 pointer-events-none z-0" />
 
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12 relative z-10">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-10 lg:gap-16 mb-8">
 
           {/* Left: Image & Quote */}
           <div className="lg:col-span-5 relative">
-            <div className="relative mb-8 mx-auto w-full max-w-[400px]">
+            <div className="relative mb-8 mx-auto w-full max-w-[420px] pt-4 pr-4">
 
-              {/* Skewed Rhombus Green Outline */}
-              <div className="absolute -top-4 -bottom-4 left-5 right-5 md:-top-5 md:-bottom-5 md:left-9 md:right-9 border-[2px] border-[var(--color-accent)] rounded-2xl skew-x-[20deg] z-0 pointer-events-none transition-transform duration-500" />
+              {/* Decorative Accents */}
+              {/* Top Right Olive Green Pill */}
+              <div className="absolute top-0 right-10 w-32 h-6 bg-[var(--color-accent)] rounded-full z-0" />
+              {/* Left Middle Navy Pill */}
+              <div className="absolute top-[15%] -left-3 w-6 h-40 bg-[#0f284b] rounded-full z-0" />
+              {/* Right Bottom Olive Green Pill */}
+              <div className="absolute bottom-[10%] -right-1 w-6 h-64 bg-[var(--color-accent)] rounded-full z-0" />
 
-              {/* Navy side pill */}
-              <div className="absolute top-1/2 -right-5 md:-right-6 w-5 md:w-6 h-28 md:h-32 bg-[#0f284b] -translate-y-1/2 rounded-r-xl z-0 transition-transform duration-500" />
-
-              {/* Main Image */}
-              <div className="block relative w-full h-[400px] sm:h-[450px] overflow-hidden rounded-2xl z-10 shadow-sm bg-white">
+              {/* Main Image Container */}
+              <div className="relative w-full h-[450px] sm:h-[500px] overflow-hidden rounded-2xl z-10 shadow-lg bg-gray-100">
                 <Image
                   src={data.image}
                   alt={data.name}
@@ -53,12 +55,14 @@ export const TeamDetailContent = ({ data }: { data?: TeamMember }) => {
               </div>
 
               {/* Floating Quote Box */}
-              <div className="absolute -bottom-6 -left-6 z-20 bg-white p-5 rounded-lg shadow-xl border-l-[3px] border-[var(--color-accent)] max-w-[220px]">
-                <div className="text-[#0f284b] text-5xl leading-none absolute -top-4 left-4 font-serif">"</div>
-                <p className="text-[#0f284b] text-[13px] font-bold mt-2 leading-relaxed">
-                  {data.quote}
+              <div className="absolute -bottom-6 -left-4 sm:-left-8 z-20 bg-white p-6 rounded-2xl shadow-2xl max-w-[280px]">
+                <div className="text-[#0f284b] text-[40px] font-serif leading-none mb-2">
+                  “
+                </div>
+                <p className="text-[#0f284b] text-[15px] font-bold leading-snug mb-4">
+                  “{data.quote}”
                 </p>
-                <div className="w-8 h-[2px] bg-[var(--color-accent)] mt-3" />
+                <div className="w-12 h-[3px] bg-[var(--color-accent)]" />
               </div>
             </div>
           </div>
@@ -121,7 +125,7 @@ export const TeamDetailContent = ({ data }: { data?: TeamMember }) => {
 
         {/* Middle Section: Single Box with 3 Columns */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8 lg:p-10 mb-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-0 lg:divide-x divide-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-0 lg:divide-x divide-gray-200">
 
             {/* Column 1: Personal Information */}
             <div className="lg:pr-10">
@@ -201,7 +205,7 @@ export const TeamDetailContent = ({ data }: { data?: TeamMember }) => {
         </div>
 
         {/* Bottom Section: Experience & Journey */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-10 lg:gap-16">
 
           {/* Left: Timeline (Bigger Column) */}
           <div className="lg:col-span-7">

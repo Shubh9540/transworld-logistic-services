@@ -10,7 +10,7 @@ export const CTASection = ({ data }: { data?: TransworldCallToActionData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative bg-[#fafafa] py-12 lg:py-12 overflow-hidden">
+    <section className="relative bg-[#fafafa] overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
 
         {/* CTA Container */}

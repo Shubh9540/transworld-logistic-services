@@ -18,7 +18,7 @@ export const TeamSection = ({ data }: { data?: TransworldTeamData }) => {
   };
 
   return (
-    <section className="bg-[#fafafa] py-16 lg:py-12 relative overflow-hidden">
+    <section className="bg-[#fafafa] relative overflow-hidden py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12 relative z-10">
 
         {/* Header Section */}

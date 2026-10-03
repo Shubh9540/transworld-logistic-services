@@ -8,7 +8,7 @@ export const NotFoundContent = ({ data }: { data?: TransworldNotFoundData }) => 
 
   return (
     <section 
-      className="bg-white py-16 lg:py-24 overflow-hidden relative min-h-[600px] flex items-center"
+      className="bg-white overflow-hidden relative min-h-[600px] flex items-center py-8 lg:py-12"
       style={{
         backgroundImage: `url('${data.zeroImage}')`,
         backgroundSize: 'contain',

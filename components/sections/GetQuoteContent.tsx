@@ -26,7 +26,7 @@ export const GetQuoteContent = ({ data }: { data?: TransworldGetQuoteData }) => 
   if (!data) return null;
 
   return (
-    <section className="bg-white py-12 lg:py-12">
+    <section className="bg-white py-8 lg:py-12">
       <div className="max-w-[1250px] mx-auto px-4 sm:px-6">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-10">
 
@@ -52,12 +52,11 @@ export const GetQuoteContent = ({ data }: { data?: TransworldGetQuoteData }) => 
                       {field.required && <span className="text-red-500 ml-1">*</span>}
                     </label>
                     <div className="relative">
-                      <div className={`absolute left-4 text-gray-400 ${field.type === 'textarea' ? 'top-4' : 'top-1/2 -translate-y-1/2'}`}>
-                        {field.icon && iconMap[field.icon]}
-                      </div>
-
                       {field.type === 'select' ? (
                         <div className="relative">
+                          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10 pointer-events-none">
+                            {field.icon && iconMap[field.icon]}
+                          </div>
                           <select defaultValue="" className="w-full bg-white border border-gray-200 text-gray-600 text-sm rounded-lg focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent block p-3.5 pl-11 appearance-none outline-none transition-all shadow-sm">
                             <option value="" disabled>{field.placeholder}</option>
                             {field.options?.map((opt, i) => <option key={i} value={opt}>{opt}</option>)}
@@ -67,17 +66,27 @@ export const GetQuoteContent = ({ data }: { data?: TransworldGetQuoteData }) => 
                           </div>
                         </div>
                       ) : field.type === 'textarea' ? (
-                        <textarea
-                          placeholder={field.placeholder}
-                          rows={4}
-                          className="w-full bg-white border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent block p-3.5 pl-11 outline-none transition-all shadow-sm resize-none"
-                        ></textarea>
+                        <div className="relative">
+                          <div className="absolute left-4 top-4 text-gray-400 pointer-events-none">
+                            {field.icon && iconMap[field.icon]}
+                          </div>
+                          <textarea
+                            placeholder={field.placeholder}
+                            rows={4}
+                            className="w-full bg-white border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent block p-3.5 pl-11 outline-none transition-all shadow-sm resize-none"
+                          ></textarea>
+                        </div>
                       ) : (
-                        <input
-                          type={field.type}
-                          placeholder={field.placeholder}
-                          className="w-full bg-white border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent block p-3.5 pl-11 outline-none transition-all shadow-sm"
-                        />
+                        <div className="relative">
+                          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+                            {field.icon && iconMap[field.icon]}
+                          </div>
+                          <input
+                            type={field.type}
+                            placeholder={field.placeholder}
+                            className="w-full bg-white border border-gray-200 text-gray-700 text-sm rounded-lg focus:ring-2 focus:ring-[var(--color-accent)] focus:border-transparent block p-3.5 pl-11 outline-none transition-all shadow-sm"
+                          />
+                        </div>
                       )}
                     </div>
                   </div>
@@ -164,14 +173,14 @@ export const GetQuoteContent = ({ data }: { data?: TransworldGetQuoteData }) => 
                 </div>
               </div>
 
-              <img src={data.helpBox.image} alt="Support" className="absolute bottom-0 right-0 h-[90%] object-contain max-w-[45%]" />
+              <img src={data.helpBox.image} alt="Support" className="absolute bottom-0 right-0 h-[90%] object-contain max-w-[35%]" />
             </div>
 
           </div>
         </div>
 
         {/* Bottom Features Strip */}
-        <div className="mt-8 bg-[#fbfbfb] rounded-xl border border-gray-100 shadow-sm p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 divide-y lg:divide-y-0 lg:divide-x divide-gray-200">
+        <div className="mt-8 bg-[#fbfbfb] rounded-xl border border-gray-100 shadow-sm p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 divide-y lg:divide-y-0 lg:divide-x divide-gray-200">
           {data.bottomFeatures.map((bf, index) => (
             <div key={bf.id} className={`flex items-center gap-4 ${index !== 0 ? 'pt-6 lg:pt-0 lg:pl-8' : ''}`}>
               <div className="text-4xl text-[var(--color-primary)]">

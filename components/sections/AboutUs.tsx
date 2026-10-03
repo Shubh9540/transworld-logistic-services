@@ -69,7 +69,7 @@ export const AboutUs = ({ data }: { data?: TransworldAboutData }) => {
   if (!data) return null;
 
   return (
-    <section ref={sectionRef} className="relative py-12 lg:py-12 bg-[#f5f7f0] overflow-hidden">
+    <section ref={sectionRef} className="relative bg-[#f5f7f0] overflow-hidden py-8 lg:py-12">
 
       {/* World Map Background */}
       <div
@@ -78,7 +78,7 @@ export const AboutUs = ({ data }: { data?: TransworldAboutData }) => {
       />
 
       <div className="relative z-10 max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* ── LEFT: Image + Badge + Stats ── */}
           <motion.div
@@ -193,18 +193,7 @@ export const AboutUs = ({ data }: { data?: TransworldAboutData }) => {
                 </div>
               </Link>
 
-              {/* Phone CTA */}
-              <div className="flex items-center gap-3">
-                <div className="w-11 h-11 rounded-full bg-[var(--color-primary)] flex items-center justify-center shrink-0 shadow-md">
-                  <FaPhone className="text-white text-base" />
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-gray-400 text-[11px] leading-none">{data.callLabel}</span>
-                  <span className="text-[var(--color-primary)] font-bold text-base leading-tight mt-0.5">
-                    {data.callNumber}
-                  </span>
-                </div>
-              </div>
+
             </div>
           </motion.div>
 

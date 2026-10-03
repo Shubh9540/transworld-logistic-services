@@ -33,7 +33,6 @@ export default function Home() {
       <Services data={sectionData.Services?.variants?.TransworldServices1} />
       <ProcessSection data={sectionData.Process?.variants?.TransworldProcess1} />
       <WhyChooseUsSection data={sectionData.WhyChooseUs?.variants?.TransworldWhyChooseUs1} />
-      <Counter data={sectionData.Counter?.variants?.TransworldCounter1} />
       <Testimonials data={sectionData.Testimonials?.variants?.TransworldTestimonials1} />
       <Partners data={sectionData.Partners?.variants?.TransworldPartners1} />
       <BlogSection data={sectionData.Blog?.variants?.TransworldBlog1} />

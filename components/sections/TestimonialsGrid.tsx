@@ -7,7 +7,7 @@ export const TestimonialsGrid = ({ data }: { data?: TransworldTestimonialsData }
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-12 bg-[#fdfaf6] relative overflow-hidden">
+    <section className="bg-[#fdfaf6] relative overflow-hidden py-8 lg:py-12">
       {/* Huge background quotes */}
       <div className="absolute top-10 right-20 text-9xl text-gray-200 opacity-30 pointer-events-none leading-none z-0">
         <FaQuoteLeft />

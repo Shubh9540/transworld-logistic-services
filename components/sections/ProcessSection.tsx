@@ -31,7 +31,7 @@ export const ProcessSection = ({ data }: { data?: TransworldProcessData }) => {
   const numSteps = data.steps.length;
 
   return (
-    <section className="relative py-16 lg:py-12 bg-white overflow-hidden text-center">
+    <section className="relative bg-white overflow-hidden text-center py-8 lg:py-12">
       {/* Map Background */}
       <div
         className="absolute inset-0 bg-no-repeat bg-center opacity-30 pointer-events-none"
@@ -94,7 +94,7 @@ export const ProcessSection = ({ data }: { data?: TransworldProcessData }) => {
           </div>
 
           {/* Steps Container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-4 relative z-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 lg:gap-4 relative z-20">
             {data.steps.map((step, index) => {
               const isActive = index === activeStep;
 

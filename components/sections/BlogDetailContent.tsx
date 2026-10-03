@@ -30,7 +30,7 @@ export const BlogDetailContent = ({ data, id }: { data?: TransworldBlogData, id:
   const restTitle = titleWords.join(' ');
 
   return (
-    <section className="bg-white py-16 lg:py-12">
+    <section className="bg-white py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12 flex flex-col lg:flex-row items-start gap-12">
 
         {/* Main Content Area */}

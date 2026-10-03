@@ -24,7 +24,7 @@ export const FAQGridSection = ({ data }: { data?: FAQGridData }) => {
   };
 
   return (
-    <section className="bg-white py-16 lg:py-12">
+    <section className="bg-white py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-12 lg:px-16">
 
         {/* Section Header */}

@@ -6,7 +6,7 @@ export const AwardsMilestones = ({ data }: { data?: TransworldAwardsMilestonesDa
   if (!data) return null;
 
   return (
-    <section className="bg-[#fdfaf6] py-16 lg:py-12 relative z-10">
+    <section className="bg-[#fdfaf6] relative z-10 py-8 lg:py-12">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-12">
 
         {/* Top Header */}

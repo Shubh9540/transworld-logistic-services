@@ -12,6 +12,8 @@ export const Breadcrumb = ({ data }: { data?: BreadcrumbData }) => {
       style={{ backgroundImage: `url('${data.bgImage || '/main logo/breadcrumb.jpg'}')` }}
     >
 
+      {/* Black Overlay */}
+      <div className="absolute inset-0 bg-black/50 z-0" />
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center gap-4 px-4">
         {/* Page Title */}
